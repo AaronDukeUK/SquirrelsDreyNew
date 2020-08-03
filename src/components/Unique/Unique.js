@@ -1,9 +1,12 @@
 import React from 'react'
 
+import { Heart } from '../index'
+
 const Unique = () => {
   return (
-    <div className="container orange">
-      <div className="about">
+    <div className="container unique">
+      <Heart />
+      <div className="uniqueText">
         <h2>Unique</h2>
         <p>Each of us are unique, why should our websites be any different?</p>
         <p>Custom build, bespoke websites. Tailor-made to your needs.</p>

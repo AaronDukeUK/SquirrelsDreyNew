@@ -17,6 +17,10 @@ import {
   Dribble,
   Gmail,
   Instagram,
+  Lightning,
+  Heart,
+  Mobile,
+  Mail,
 } from './SVG'
 
 export {
@@ -32,4 +36,16 @@ export {
   Contact,
 }
 
-export { Arrow, Facebook, Twitter, Github, Dribble, Gmail, Instagram }
+export {
+  Arrow,
+  Facebook,
+  Twitter,
+  Github,
+  Dribble,
+  Gmail,
+  Instagram,
+  Lightning,
+  Heart,
+  Mobile,
+  Mail,
+}

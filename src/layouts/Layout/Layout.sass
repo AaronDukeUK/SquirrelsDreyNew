@@ -52,12 +52,6 @@ html
   &:nth-child(5)
     background: #e76f51
 
-.move
-  background: red
-
-.hero
- 
-
 .line
   position: absolute
   height: 220px
@@ -91,6 +85,7 @@ h2
   letter-spacing: 0.2rem
   text-shadow: 2px 2px 5px #0a0a0a
   color: white
+  margin: 0 0 40px 0
 
 h3
   font-family: 'Montserrat'
@@ -98,11 +93,14 @@ h3
   margin: 20px 0
   text-shadow: 2px 2px 5px #0a0a0a
   color: white
+  
 
 p
   font-family: 'Montserrat'
   font-size: 2rem
   margin: 20px 0
+  font-weight: 500
+  
 
 svg
   height: 40px
@@ -113,4 +111,17 @@ a:hover
 .whiteText
   color: white
 
+.unique
+  svg
+    width: 1000px
+    height: 1000px
+    position: absolute
+    right: 200px
+    bottom: -100px
+    transform: rotate(22.5deg)
+    opacity: 0.5
+    path
+      fill: white
 
+.uniqueText
+  z-index: 1

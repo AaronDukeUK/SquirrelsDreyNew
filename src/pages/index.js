@@ -1,6 +1,14 @@
 import React from 'react'
 import { Layout } from '../layouts'
-import { SEO, Border, Hero } from '../components'
+import {
+  SEO,
+  Border,
+  Hero,
+  Unique,
+  Speed,
+  Projects,
+  Contact,
+} from '../components'
 
 const IndexPage = () => (
   <>
@@ -11,9 +19,10 @@ const IndexPage = () => (
       <div className="outerWrapper">
         <div className="wrapper">
           <Hero />
-          <Hero />
-          <Hero />
-          <Hero />
+          <Unique />
+          <Speed />
+          <Projects />
+          <Contact />
         </div>
       </div>
     </Layout>

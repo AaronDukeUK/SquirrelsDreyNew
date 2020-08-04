@@ -1,14 +1,16 @@
 import React from 'react'
 
+import './Hero.sass'
+
 const Hero = () => {
   return (
     <div className="container">
       <div className="line"></div>
       <div className="line"></div>
       <div className="line"></div>
-      <div className="hero">
-        <h1>Aaron Duke</h1>
-        <p className="whiteText">Web Developer - Norfolk, UK.</p>
+      <div>
+        <h1 className="whiteText">Hello.</h1>
+        <p className="whiteText">Aaron Duke - Web Developer - Norfolk, UK.</p>
       </div>
     </div>
   )

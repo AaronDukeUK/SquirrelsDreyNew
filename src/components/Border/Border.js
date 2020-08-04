@@ -2,6 +2,8 @@ import React, { useState } from 'react'
 
 import { MenuIcon, Menu, Social } from '../index'
 
+import './Border.sass'
+
 const Border = () => {
   const [open, setOpen] = useState(false)
   return (

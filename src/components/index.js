@@ -4,10 +4,11 @@ import { MenuIcon } from './MenuIcon'
 import { Social } from './Social'
 import { Menu } from './Menu'
 import { Hero } from './Hero'
-import { Unique } from './Unique'
+import { Custom } from './Custom'
 import { Speed } from './Speed'
 import { Projects } from './Projects'
 import { Contact } from './Contact'
+import { ProjectItem } from './ProjectItem'
 
 import {
   Arrow,
@@ -30,10 +31,11 @@ export {
   Social,
   Menu,
   Hero,
-  Unique,
+  Custom,
   Speed,
   Projects,
   Contact,
+  ProjectItem,
 }
 
 export {

@@ -1,18 +1,61 @@
 import React from 'react'
-import { Link } from 'gatsby'
+import { graphql, useStaticQuery, Link } from 'gatsby'
 
-import { Mobile } from '../index'
+import { ProjectItem } from '../index'
+
+import './Projects.sass'
+
+const getProjects = graphql`
+  {
+    fairy: file(name: { eq: "fairies" }) {
+      name
+      childImageSharp {
+        fluid(maxWidth: 600) {
+          ...GatsbyImageSharpFluid
+        }
+      }
+    }
+    wood: file(name: { eq: "wood" }) {
+      name
+      childImageSharp {
+        fluid(maxWidth: 600) {
+          ...GatsbyImageSharpFluid
+        }
+      }
+    }
+  }
+`
 
 const Projects = () => {
+  const data = useStaticQuery(getProjects)
   return (
-    <div className="container projects">
-      <Mobile />
-      <div className="projectsText">
-        <h2>Projects</h2>
-        <p>Enough talk, lets look at my work.</p>
-        <Link to="/projects" className="button">
-          Show Me!
-        </Link>
+    <div className="projectsContainer">
+      <div className="projectsTextContainer">
+        <h2>Projects.</h2>
+        <p className="lead">
+          Enough talk, lets look at <span className="italic">my work</span>.
+        </p>
+      </div>
+      <div className="projectItemsContainer">
+        <ProjectItem
+          alt={data.fairy.name}
+          image={data.fairy.childImageSharp.fluid}
+          category="E-commerce website"
+          title="Fairies of Tranquility."
+          lead="New E-commerce store for Handmade fairy products."
+        />
+        <ProjectItem
+          alt={data.wood.name}
+          image={data.wood.childImageSharp.fluid}
+          category="Brochure website"
+          title="Wood Wizards."
+        />
+        <ProjectItem
+          alt={data.wood.name}
+          image={data.wood.childImageSharp.fluid}
+          category="E-commerce website"
+          title="Fairies of Tranquility."
+        />
       </div>
     </div>
   )

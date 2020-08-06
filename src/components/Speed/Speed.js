@@ -49,7 +49,9 @@ const Speed = () => {
             Fully optimised, <span className="italic">handcrafted</span> code to
             meet any devices needs.
           </p>
-          <Link to="/">Learn More</Link>
+          <Link className="textLink" to="/">
+            Learn More
+          </Link>
         </div>
       </div>
     </div>

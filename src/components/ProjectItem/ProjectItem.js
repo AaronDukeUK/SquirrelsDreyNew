@@ -2,11 +2,17 @@ import React from 'react'
 
 import Img from 'gatsby-image/withIEPolyfill'
 
+import './ProjectItem.sass'
+
 const ProjectItem = props => {
   return (
     <div className="projectItem">
-      <p>{props.category}</p>
-      <p>{props.title}</p>
+      <div className="colorOverlay"></div>
+      <div className="projectOverlay">
+        <p className="projectCategory">{props.category}</p>
+        <p className="projectTitle">{props.title}</p>
+        <p className="projectLead">{props.lead}</p>
+      </div>
       <Img
         className="projectImage"
         alt={props.alt}

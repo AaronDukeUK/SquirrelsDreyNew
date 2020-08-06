@@ -3,11 +3,11 @@ import { graphql, useStaticQuery, Link } from 'gatsby'
 import Img from 'gatsby-image/withIEPolyfill'
 
 import { Layout } from '../layouts'
-import { SEO, Hero, Custom, Speed } from '../components'
+import { SEO, Hero, Custom, Speed, Projects } from '../components'
 
 const getImages = graphql`
   {
-    file(name: { eq: "pc" }) {
+    file(name: { eq: "pccolored" }) {
       name
       childImageSharp {
         fluid(maxWidth: 3000) {
@@ -37,6 +37,7 @@ const IndexPage = () => {
         objectFit="cover"
       />
       <Speed />
+      <Projects />
     </Layout>
   )
 }

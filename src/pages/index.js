@@ -3,7 +3,7 @@ import { graphql, useStaticQuery, Link } from 'gatsby'
 import Img from 'gatsby-image/withIEPolyfill'
 
 import { Layout } from '../layouts'
-import { SEO, Hero, Custom, Speed, Projects } from '../components'
+import { SEO, Hero, Custom, Speed, Projects, Footer } from '../components'
 
 const getImages = graphql`
   {
@@ -23,6 +23,7 @@ const IndexPage = () => {
   return (
     <Layout>
       <SEO title="Home" />
+
       <Hero />
       <Custom />
       <Img
@@ -38,6 +39,8 @@ const IndexPage = () => {
       />
       <Speed />
       <Projects />
+      <div className="bottomMargin"></div>
+      <Footer />
     </Layout>
   )
 }

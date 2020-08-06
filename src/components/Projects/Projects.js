@@ -23,6 +23,14 @@ const getProjects = graphql`
         }
       }
     }
+    sd: file(name: { eq: "squirrel" }) {
+      name
+      childImageSharp {
+        fluid(maxWidth: 600) {
+          ...GatsbyImageSharpFluid
+        }
+      }
+    }
   }
 `
 
@@ -31,9 +39,10 @@ const Projects = () => {
   return (
     <div className="projectsContainer">
       <div className="projectsTextContainer">
-        <h2>Projects.</h2>
+        <h2>Work.</h2>
         <p className="lead">
-          Enough talk, lets look at <span className="italic">my work</span>.
+          Enough talk, lets look at some of{' '}
+          <span className="italic">my work</span>.
         </p>
       </div>
       <div className="projectItemsContainer">
@@ -43,18 +52,23 @@ const Projects = () => {
           category="E-commerce website"
           title="Fairies of Tranquility."
           lead="New E-commerce store for Handmade fairy products."
+          bgClass="green"
         />
         <ProjectItem
           alt={data.wood.name}
           image={data.wood.childImageSharp.fluid}
           category="Brochure website"
           title="Wood Wizards."
+          lead="Bespoke garden furnitue based in Norfolk, UK."
+          bgClass="blue"
         />
         <ProjectItem
-          alt={data.wood.name}
-          image={data.wood.childImageSharp.fluid}
-          category="E-commerce website"
-          title="Fairies of Tranquility."
+          alt={data.sd.name}
+          image={data.sd.childImageSharp.fluid}
+          category="Restaurant website"
+          title="Squirrels Drey."
+          lead="Fine Dining Restuarant, Locally Sourced Ingredients."
+          bgClass="orange"
         />
       </div>
     </div>

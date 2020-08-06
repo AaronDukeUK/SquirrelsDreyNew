@@ -7,7 +7,7 @@ import './ProjectItem.sass'
 const ProjectItem = props => {
   return (
     <div className="projectItem">
-      <div className="colorOverlay"></div>
+      <div className={`colorOverlay + ${props.bgClass}`}></div>
       <div className="projectOverlay">
         <p className="projectCategory">{props.category}</p>
         <p className="projectTitle">{props.title}</p>

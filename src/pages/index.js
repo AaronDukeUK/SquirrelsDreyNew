@@ -23,7 +23,6 @@ const IndexPage = () => {
   return (
     <Layout>
       <SEO title="Home" />
-
       <Hero />
       <Custom />
       <Img

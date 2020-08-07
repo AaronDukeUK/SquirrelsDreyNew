@@ -39,7 +39,7 @@ const Speed = () => {
         <div className="speedText">
           <p className="lead">
             Mobile browsing <span className="italic">dominates</span> todays
-            world <span className="colored">.</span>
+            world <span className="coloredOrange">.</span>
           </p>
           <p>
             Generating <span className="italic">blazing-fast</span> websites,

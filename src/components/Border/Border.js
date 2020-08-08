@@ -2,13 +2,15 @@ import React, { useState } from 'react'
 
 import { MenuIcon, Menu, Social } from '../index'
 
+import { StyledBorder } from './styles'
+
 import './Border.sass'
 
 const Border = () => {
   const [open, setOpen] = useState(false)
   return (
     <>
-      <div className="border"></div>
+      <StyledBorder className="border" open={open}></StyledBorder>
       <MenuIcon open={open} setOpen={setOpen} />
       <Menu open={open} setOpen={setOpen} />
       <Social />

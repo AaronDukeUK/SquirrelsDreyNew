@@ -1,5 +1,5 @@
 import React from 'react'
-import { StyledMenu } from './styles'
+import { StyledMenu, StyledPanel } from './styles'
 import { Link } from 'gatsby'
 
 import './Menu.sass'
@@ -9,6 +9,10 @@ const Menu = ({ open }) => {
     <StyledMenu open={open} className="menuContainer">
       <div className="menuText">
         <div className="footerlogo">AD</div>
+        <div className="footerLinks">
+          <Link to="/">Home</Link>
+          <Link to="/about">About</Link>
+        </div>
         <div className="footerAddress">
           <p>70 The Street, Kings Lynn, PE32 2DR</p>
           <p>+44(0) 7435 236295</p>

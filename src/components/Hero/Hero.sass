@@ -9,6 +9,10 @@
     align-items: flex-start
     justify-content: flex-end
     padding: 40px 200px
+    @media only screen and (max-width: 1050px)
+        padding: 0px 150px
+    @media only screen and (max-width: 800px)
+        padding: 0px 100px
 
 .line
     position: absolute
@@ -26,6 +30,15 @@
         right: 225px
         height: 300px
         background: #e76f51
+    @media only screen and (max-width: 1050px)
+        right: 50%
+        &:nth-child(2)
+            right: 52%
+            height: 350px
+        &:nth-child(3)
+            right: 55%
+            height: 250px
+
 
 .heroText
     margin: 0 0 50px 0

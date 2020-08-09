@@ -23,7 +23,7 @@ const Custom = () => {
       <div className="homeSection">
         <div className="homeText">
           <p className="lead">
-            Each of us are <span className="italic">unique</span>, why should
+            Each of us are <span className="italic">unique,</span> why should
             our websites be any different <span className="coloredBlue">?</span>
           </p>
           <p>Custom built, bespoke websites. Tailor-made to your needs.</p>

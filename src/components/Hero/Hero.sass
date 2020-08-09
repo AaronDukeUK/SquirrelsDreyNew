@@ -13,6 +13,8 @@
         padding: 0px 150px
     @media only screen and (max-width: 800px)
         padding: 0px 100px
+    @media only screen and (max-width: 600px)
+        padding: 0px 50px
 
 .line
     position: absolute
@@ -32,12 +34,23 @@
         background: #e76f51
     @media only screen and (max-width: 1050px)
         right: 50%
+        height: 30%
+        z-index: 2
         &:nth-child(2)
             right: 52%
-            height: 350px
+            height: 70%
         &:nth-child(3)
             right: 55%
-            height: 250px
+            height: 50%
+    @media only screen and (max-width: 600px)
+        right: 50%
+        height: 30%
+        &:nth-child(2)
+            right: 60%
+            height: 70%
+        &:nth-child(3)
+            right: 65%
+            height: 50%
 
 
 .heroText

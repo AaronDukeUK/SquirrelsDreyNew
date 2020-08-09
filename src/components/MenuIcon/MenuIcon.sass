@@ -1,1 +1,23 @@
-
+.menuIconContainer
+    display: flex
+    flex-direction: column
+    justify-content: space-around
+    width: 2rem
+    height: 2rem
+    background: transparent
+    border: none
+    cursor: pointer
+    padding: 0
+    z-index: 20
+    transition: all 0.3s linear
+    position: fixed
+    top: 50%
+    div
+        transition: all 0.3s linear
+        position: relative
+        transform-origin: 1px
+        width: 2rem
+        height: 0.25rem
+    
+    @media only screen and (max-width: 600px)
+        top: 20px

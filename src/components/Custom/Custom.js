@@ -31,10 +31,10 @@ const Custom = () => {
             No templates, no copies, 100%{' '}
             <span className="italic">original content</span>.
           </p>
-          <Link className="textLink" to="/about">
+          <Link className="link customLink" to="/about">
             Learn More
           </Link>
-          <h2>Custom.</h2>
+          <h2 className="coloredBlue">Custom.</h2>
         </div>
 
         <div className="homeImage">

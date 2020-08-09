@@ -12,22 +12,25 @@
     width: 100%
     display: flex
     align-items: center
-    justify-content: space-between
+    justify-content: center
     flex-wrap: wrap
 
 //project Items
 .projectItem
-    width: 400px
-    height: 300px
+    width: 495px
+    height: 350px
     position: relative
     overflow: hidden
+    margin: 5px
 
-.projectItem:hover .colorOverlay
-    height: 120%
-    transform: skewY(0deg)
-
-.projectItem:hover .projectLead
-    height: 70px
+.projectItem:hover
+    .colorOverlay
+        height: 150%
+        transform: skewY(0deg)
+    .projectLead
+        height: 80px
+    .projectTitle
+        font-size: 2rem
 
 .projectOverlay
     position: absolute
@@ -54,21 +57,21 @@
     font-family: 'Titillium Web'
     letter-spacing: 0.2rem
     color: white
+    transition: 0.65s ease-in-out
 
 .colorOverlay
     position: absolute
     width: 100%
     height: 10px
-    bottom: -50px
+    bottom: -100px
     left: 0
     z-index: 1
     transform: skewY(10deg)
-    transition: 0.5s ease-in
+    transition: 0.65s ease-in-out
 
 .projectLead
     height: 0
     font-size: 1rem
     overflow: hidden
-    transition: 0.5s ease-in
+    transition: 0.65s ease-in-out
     margin: 0
-

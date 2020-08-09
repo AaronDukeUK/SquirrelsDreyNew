@@ -1,7 +1,7 @@
 import React from 'react'
 
 import { Layout } from '../layouts'
-import { SEO, Hero, Custom, Speed, Projects, Footer } from '../components'
+import { SEO, Hero, Custom, Speed, Projects } from '../components'
 
 const IndexPage = () => {
   return (

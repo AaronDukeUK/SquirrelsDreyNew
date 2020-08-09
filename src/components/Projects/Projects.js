@@ -1,5 +1,5 @@
 import React from 'react'
-import { graphql, useStaticQuery, Link } from 'gatsby'
+import { graphql, useStaticQuery } from 'gatsby'
 
 import { ProjectItem } from '../index'
 
@@ -10,7 +10,7 @@ const getProjects = graphql`
     fairy: file(name: { eq: "fairies" }) {
       name
       childImageSharp {
-        fluid(maxWidth: 600) {
+        fluid(maxWidth: 1000) {
           ...GatsbyImageSharpFluid
         }
       }
@@ -18,7 +18,7 @@ const getProjects = graphql`
     wood: file(name: { eq: "wood" }) {
       name
       childImageSharp {
-        fluid(maxWidth: 600) {
+        fluid(maxWidth: 1000) {
           ...GatsbyImageSharpFluid
         }
       }
@@ -26,7 +26,7 @@ const getProjects = graphql`
     sd: file(name: { eq: "squirrel" }) {
       name
       childImageSharp {
-        fluid(maxWidth: 600) {
+        fluid(maxWidth: 1000) {
           ...GatsbyImageSharpFluid
         }
       }
@@ -37,17 +37,17 @@ const getProjects = graphql`
 const Projects = () => {
   const data = useStaticQuery(getProjects)
   return (
-    <section className="homeContainer greyBG">
-      <div className="homeSectionContainer">
+    <section className="homeContainer noPaddingBottom">
+      <div className="homeSectionContainer greyBG">
         <div className="homeSection projects">
           <div className="projectsTextContainer">
-            <h2>Work.</h2>
+            <h2 className="coloredOrange">Work.</h2>
             <p className="lead">
               Enough talk, lets look at some of{' '}
-              <span className="italic">my work</span>.
+              <span className="italic">my work</span>
+              <span className="coloredOrange"> .</span>
             </p>
           </div>
-
           <div className="projectItemsContainer">
             <ProjectItem
               alt={data.fairy.name}
@@ -55,7 +55,7 @@ const Projects = () => {
               category="E-commerce website"
               title="Fairies of Tranquility."
               lead="New E-commerce store for Handmade fairy products."
-              bgClass="green"
+              bgClass="yellowBG"
             />
             <ProjectItem
               alt={data.wood.name}
@@ -63,7 +63,7 @@ const Projects = () => {
               category="Brochure website"
               title="Wood Wizards."
               lead="Bespoke garden furnitue based in Norfolk, UK."
-              bgClass="blue"
+              bgClass="blueBG"
             />
             <ProjectItem
               alt={data.sd.name}
@@ -71,7 +71,7 @@ const Projects = () => {
               category="Restaurant website"
               title="Squirrels Drey."
               lead="Fine Dining Restuarant, Locally Sourced Ingredients."
-              bgClass="orange"
+              bgClass="orangeBG"
             />
           </div>
         </div>

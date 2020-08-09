@@ -3,7 +3,7 @@ import styled from 'styled-components'
 export const StyledMenuIcon = styled.button`
   position: fixed;
   top: 50%;
-  left: 25px;
+  left: ${({ open }) => (open ? '65px' : '25px')};
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -14,6 +14,7 @@ export const StyledMenuIcon = styled.button`
   cursor: pointer;
   padding: 0;
   z-index: 20;
+  transition: all 0.3s linear;
 
   &:focus {
     outline: none;
@@ -22,7 +23,7 @@ export const StyledMenuIcon = styled.button`
   div {
     width: 2rem;
     height: 0.25rem;
-    background: ${({ open }) => (open ? 'black' : 'black')};
+    background: ${({ open }) => (open ? '#3A5763' : 'black')};
     transition: all 0.3s linear;
     position: relative;
     transform-origin: 1px;
@@ -32,7 +33,6 @@ export const StyledMenuIcon = styled.button`
     }
 
     :nth-child(2) {
-      width: 3rem;
       opacity: ${({ open }) => (open ? '0' : '1')};
       transform: ${({ open }) => (open ? 'translateX(20px)' : 'translateX(0)')};
     }

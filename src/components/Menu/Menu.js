@@ -1,26 +1,51 @@
 import React from 'react'
-import { StyledMenu, StyledPanel } from './styles'
-import { Link } from 'gatsby'
-
+import { graphql, useStaticQuery, Link } from 'gatsby'
+import Img from 'gatsby-image/withIEPolyfill'
+import { StyledMenu } from './styles'
 import './Menu.sass'
 
+const getMenu = graphql`
+  {
+    file(name: { eq: "logo" }) {
+      name
+      childImageSharp {
+        fluid(maxWidth: 200) {
+          ...GatsbyImageSharpFluid
+        }
+      }
+    }
+  }
+`
+
 const Menu = ({ open }) => {
+  const data = useStaticQuery(getMenu)
   return (
     <StyledMenu open={open} className="menuContainer">
       <div className="menuText">
-        <div className="footerlogo">AD</div>
-        <div className="footerLinks">
-          <Link to="/">Home</Link>
-          <Link to="/about">About</Link>
+        <div className="logo">
+          <Img
+            className="Image"
+            alt={data.file.name}
+            fluid={data.file.childImageSharp.fluid}
+            objectFit="cover"
+          />
         </div>
-        <div className="footerAddress">
+        <div className="menuLinks">
+          <Link className="customLink" to="/" activeClassName="activeLink">
+            Home
+          </Link>
+          <Link className="speedLink" to="/about" activeClassName="activeLink">
+            About
+          </Link>
+        </div>
+        <div className="address">
           <p>70 The Street, Kings Lynn, PE32 2DR</p>
           <p>+44(0) 7435 236295</p>
-          <p>aaron@aaronduke.co.uk</p>
+          <p>hello@aaronduke.co.uk</p>
         </div>
-        <div className="footerContact">
+        <div className="contact">
           <p>Want to work with me?</p>
-          <a href="mailto:aaron@aaronduke.co.uk">
+          <a href="mailto:hello@aaronduke.co.uk">
             <p className="bold largeText">BRIEF ME.</p>
           </a>
         </div>

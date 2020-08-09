@@ -1,5 +1,5 @@
 import React from 'react'
-import { graphql, useStaticQuery, Link } from 'gatsby'
+import { graphql, useStaticQuery } from 'gatsby'
 import Img from 'gatsby-image/withIEPolyfill'
 
 import { Layout } from '../layouts'
@@ -8,10 +8,10 @@ import './about.sass'
 
 const getAbout = graphql`
   {
-    compass: file(name: { eq: "compass" }) {
+    notes: file(name: { eq: "notes" }) {
       name
       childImageSharp {
-        fluid(maxWidth: 3000) {
+        fluid(maxWidth: 1000) {
           ...GatsbyImageSharpFluid
         }
       }
@@ -19,7 +19,7 @@ const getAbout = graphql`
     pc: file(name: { eq: "aboutpc" }) {
       name
       childImageSharp {
-        fluid(maxWidth: 3000) {
+        fluid(maxWidth: 1000) {
           ...GatsbyImageSharpFluid
         }
       }
@@ -27,7 +27,7 @@ const getAbout = graphql`
     phone: file(name: { eq: "phone" }) {
       name
       childImageSharp {
-        fluid(maxWidth: 3000) {
+        fluid(maxWidth: 1000) {
           ...GatsbyImageSharpFluid
         }
       }
@@ -60,8 +60,8 @@ const About = () => {
             </div>
             <div className="aboutImage dropped">
               <Img
-                alt={data.compass.name}
-                fluid={data.compass.childImageSharp.fluid}
+                alt={data.notes.name}
+                fluid={data.notes.childImageSharp.fluid}
                 objectFit="cover"
               />
             </div>
@@ -193,8 +193,8 @@ const About = () => {
 
             <div className="aboutImage raised">
               <Img
-                alt={data.pc.name}
-                fluid={data.pc.childImageSharp.fluid}
+                alt={data.phone.name}
+                fluid={data.phone.childImageSharp.fluid}
                 objectFit="cover"
               />
             </div>

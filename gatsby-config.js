@@ -24,11 +24,20 @@ module.exports = {
         background_color: `#663399`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `src/images/gatsby-icon.png`,
+        icon: `src/images/favicon.png`,
       },
     },
     `gatsby-plugin-offline`,
     `gatsby-plugin-sass`,
     `styled-components`,
+    `gatsby-plugin-netlify`,
+    'gatsby-plugin-robots-txt',
+    `gatsby-plugin-sitemap`,
+    {
+      resolve: 'gatsby-plugin-google-analytics',
+      options: {
+        trackingId: 'UA-174984908-1',
+      },
+    },
   ],
 }

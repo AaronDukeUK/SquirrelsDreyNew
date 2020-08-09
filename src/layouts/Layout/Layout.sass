@@ -83,11 +83,10 @@ a
   font-size: 1.5rem
   font-weight: bold
   font-family: 'Titillium Web'
-  margin: 0 0 80px 0
-
+  margin: 0 0 40px 0
 
 //colors
-
+  
 .blue
   background: #43aa8b
 
@@ -100,7 +99,7 @@ a
 .white
   background: white
 
-.grey
+.greyBG
   background: #F8F8F8
 
 .coloredBlue
@@ -167,19 +166,16 @@ a
   cursor: pointer
   padding: 0
   z-index: 10
-
   a
     display: flex
     flex-direction: column
     justify-content: center
     align-items: center
     margin: 5px 0
-
     svg
       width: 35px
       height: 35px
       transition: 0.25s ease-in
-
       svg:hover
         transform: translate(10px)
 
@@ -220,232 +216,34 @@ a
 
 //section styles
 
-.pageContainer
+.homeContainer
   display: flex
   flex-direction: column
-  justify-content: space-around
-  align-items: flex-start
   width: 100%
   background: white
+  padding: 40px
 
-.pageTextContainer
-  height: 100vh
+.homeSectionContainer
   width: 100%
+  padding: 200px 0
+
+.homeSection
+  width: 80%
+  margin: 0 auto
   display: flex
-  flex-direction: column
-  align-items: flex-start
-  justify-content: space-around
-  padding: 140px 300px
+  align-items: center
+  justify-content: space-between
 
-.padandMargin
-  padding: 0 300px 140px 300px
-  margin: -200px 0 0 0
-  height: 100%
+.homeText
+  width: 400px
+  h2
+    margin: 80px 0 0 0
 
-.pageImageContainer
+.homeImage
+  position: relative
   height: 500px
   width: 700px
-  align-self: flex-end
-  margin: 0 300px 0 0
-  position: relative
 
-.pageListing
-  border-top: 4px solid #c4c1c1
-  border-bottom: 4px solid #c4c1c1
-  display: flex
-  align-items: center
-  justify-content: space-between
-  margin: 40px 0
-  width: 100%
-
-.pageListingSection
-  display: flex
+.projects
   flex-direction: column
   align-items: flex-start
-  justify-content: space-between
-  width: 450px
-  padding: 40px 20px
-  height: 300px
-  p:first-child
-    font-weight: 600
-    text-transform: uppercase
-
-
-.sectionContainer
-  display: flex
-  justify-content: space-between
-  align-items: center
-  width: 100%
-  padding: 140px 300px
-  height: 100vh
-
-.sectionTextContainer
-  height: 100%
-  display: flex
-  flex-direction: column
-  align-items: center
-  justify-content: space-around
-
-.sectionText
-  width: 400px
-
-.sectionTitle
-
-.sectionImageContainer
-  height: 400px
-  width: 600px
-  position: relative
-
-.largeImage
-  height: 800px
-  width: 1000px
-
-.sectionImageBG
-  height: 100%
-  width: 100%
-  position: absolute
-
-.left
-  bottom: -100px
-  right: -100px
-
-.top
-  top: -200px
-
-.right
-  bottom: -100px
-  left: -100px
-
-//projects styles
-
-.projectsContainer
-  display: flex
-  flex-direction: column
-  justify-content: space-between
-  background: #F8F8F8
-  width: 100%
-  padding: 100px 300px
-
-.projectsTextContainer
-  display: flex
-  flex-direction: column
-  justify-content: space-between
-  align-items: flex-start
-  margin: 0 0 100px 0
-  h2
-    color: #264653
-  .lead
-    margin: 40px 0
-    
-.colored
-  color: #264653
-  font-size: 2rem
-
-.projectItemsContainer
-  width: 100%
-  display: flex
-  align-items: center
-  justify-content: space-between
-  flex-wrap: wrap
-
-//project Items
-
-.projectItem
-  width: 400px
-  height: 300px
-  position: relative
-  overflow: hidden
-
-.projectItem:hover .colorOverlay
-  height: 120%
-  transform: skewY(0deg)
-
-.projectItem:hover .projectLead
-  height: 70px
-
-.projectOverlay
-  position: absolute
-  z-index: 2
-  top: 0
-  bottom: 0
-  left: 0
-  right: 0
-  display: flex
-  flex-direction: column
-  align-items: flex-start
-  justify-content: flex-end
-  padding: 0 20px
-
-.projectCategory
-  font-style: italic
-  margin: 0
-  font-weight: 400
-  color: white
-
-.projectTitle
-  font-size: 1.5rem
-  font-weight: bold
-  font-family: 'Titillium Web'
-  letter-spacing: 0.2rem
-  color: white
-
-.colorOverlay
-  position: absolute
-  width: 100%
-  height: 10px
-  bottom: -50px
-  left: 0
-  z-index: 1
-  transform: skewY(10deg)
-  transition: 0.5s ease-in
-
-.projectLead
-  height: 0
-  font-size: 1rem
-  overflow: hidden
-  transition: 0.5s ease-in
-  margin: 0
-
-//footer styles
-
-.footerContainer
-  position: fixed
-  bottom: 0
-  left: 0
-  width: 100%
-  height: 30vh
-  z-index: -1
-  display: flex
-  justify-content: space-between
-  align-items: center
-  padding: 40px 300px
-
-.footerLinks
-  display: flex
-  flex-direction: column
-  font-size: 2rem
-  a
-    margin: 20px 0
-    transition: 0.25s ease-in
-    background-image: linear-gradient(120deg, #a3dbf1 0%, #c0dde9 100%)
-    background-repeat: no-repeat
-    background-size: 0% 50%
-    background-position: 0% 100%
-  a:hover
-    background-image: linear-gradient(120deg, #a3dbf1 0%, #c0dde9 100%)
-    background-size: 100% 50%
-  
-  a:nth-child(2)
-    background-image: linear-gradient(120deg, #e4b275 0%, #e4b275 100%)
-
-  a:nth-child(2):hover
-    background-image: linear-gradient(120deg, #e4b275 0%, #e4b275 100%)
-
-.footerContact
-  p
-    margin: 10px
-
-.footerAddress
-  p
-    font-size: 0.8rem
-    margin: 10px

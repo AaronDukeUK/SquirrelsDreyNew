@@ -7,10 +7,12 @@ const IndexPage = () => {
   return (
     <Layout>
       <SEO title="Home" />
-      <Hero />
-      <Custom />
-      <Speed />
-      <Projects />
+      <main className="homeContainer">
+        <Hero />
+        <Custom />
+        <Speed />
+        <Projects />
+      </main>
     </Layout>
   )
 }

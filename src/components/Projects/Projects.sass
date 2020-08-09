@@ -1,1 +1,74 @@
+//projects styles
+.projectsTextContainer
+    display: flex
+    flex-direction: column
+    justify-content: space-between
+    align-items: flex-start
+    margin: 0 0 100px 0
+    h2
+        margin: 0 0 40px 0
+
+.projectItemsContainer
+    width: 100%
+    display: flex
+    align-items: center
+    justify-content: space-between
+    flex-wrap: wrap
+
+//project Items
+.projectItem
+    width: 400px
+    height: 300px
+    position: relative
+    overflow: hidden
+
+.projectItem:hover .colorOverlay
+    height: 120%
+    transform: skewY(0deg)
+
+.projectItem:hover .projectLead
+    height: 70px
+
+.projectOverlay
+    position: absolute
+    z-index: 2
+    top: 0
+    bottom: 0
+    left: 0
+    right: 0
+    display: flex
+    flex-direction: column
+    align-items: flex-start
+    justify-content: flex-end
+    padding: 0 20px
+
+.projectCategory
+    font-style: italic
+    margin: 0
+    font-weight: 400
+    color: white
+
+.projectTitle
+    font-size: 1.5rem
+    font-weight: bold
+    font-family: 'Titillium Web'
+    letter-spacing: 0.2rem
+    color: white
+
+.colorOverlay
+    position: absolute
+    width: 100%
+    height: 10px
+    bottom: -50px
+    left: 0
+    z-index: 1
+    transform: skewY(10deg)
+    transition: 0.5s ease-in
+
+.projectLead
+    height: 0
+    font-size: 1rem
+    overflow: hidden
+    transition: 0.5s ease-in
+    margin: 0
 

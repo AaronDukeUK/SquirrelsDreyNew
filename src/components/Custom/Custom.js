@@ -19,9 +19,9 @@ const getCustom = graphql`
 const Custom = () => {
   const data = useStaticQuery(getCustom)
   return (
-    <div className="sectionContainer grey">
-      <div className="sectionTextContainer">
-        <div className="sectionText">
+    <section className="homeSectionContainer greyBG">
+      <div className="homeSection">
+        <div className="homeText">
           <p className="lead">
             Each of us are <span className="italic">unique</span>, why should
             our websites be any different <span className="coloredBlue">?</span>
@@ -34,19 +34,18 @@ const Custom = () => {
           <Link className="textLink" to="/about">
             Learn More
           </Link>
+          <h2>Custom.</h2>
         </div>
-        <h2 className="sectionTitle coloredBlue">Custom.</h2>
+
+        <div className="homeImage">
+          <Img
+            alt={data.file.name}
+            fluid={data.file.childImageSharp.fluid}
+            objectFit="cover"
+          />
+        </div>
       </div>
-      <div className="sectionImageContainer">
-        <div className="sectionImageBG blue right"></div>
-        <Img
-          className="Image"
-          alt={data.file.name}
-          fluid={data.file.childImageSharp.fluid}
-          objectFit="cover"
-        />
-      </div>
-    </div>
+    </section>
   )
 }
 

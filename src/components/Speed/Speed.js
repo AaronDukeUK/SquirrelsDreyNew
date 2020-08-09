@@ -19,18 +19,18 @@ const getSpeed = graphql`
 const Speed = () => {
   const data = useStaticQuery(getSpeed)
   return (
-    <div className="sectionContainer white">
-      <div className="sectionImageContainer">
-        <div className="sectionImageBG orange left"></div>
-        <Img
-          className="Image"
-          alt={data.file.name}
-          fluid={data.file.childImageSharp.fluid}
-          objectFit="cover"
-        />
-      </div>
-      <div className="sectionTextContainer">
-        <div className="sectionText">
+    <section className="homeSectionContainer">
+      <div className="homeSection">
+        <div className="homeImage">
+          <Img
+            className="Image"
+            alt={data.file.name}
+            fluid={data.file.childImageSharp.fluid}
+            objectFit="cover"
+          />
+        </div>
+
+        <div className="homeText">
           <p className="lead">
             Mobile browsing <span className="italic">dominates</span> todays
             world <span className="coloredOrange">.</span>
@@ -46,10 +46,10 @@ const Speed = () => {
           <Link className="textLink" to="/about">
             Learn More
           </Link>
+          <h2>Speed.</h2>
         </div>
-        <h2 className="sectionTitle coloredOrange">Speed.</h2>
       </div>
-    </div>
+    </section>
   )
 }
 

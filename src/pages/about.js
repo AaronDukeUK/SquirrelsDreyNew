@@ -4,6 +4,8 @@ import Img from 'gatsby-image/withIEPolyfill'
 
 import { Layout } from '../layouts'
 
+import './about.sass'
+
 const getAbout = graphql`
   {
     compass: file(name: { eq: "compass" }) {
@@ -22,6 +24,14 @@ const getAbout = graphql`
         }
       }
     }
+    phone: file(name: { eq: "phone" }) {
+      name
+      childImageSharp {
+        fluid(maxWidth: 3000) {
+          ...GatsbyImageSharpFluid
+        }
+      }
+    }
   }
 `
 
@@ -29,79 +39,167 @@ const About = () => {
   const data = useStaticQuery(getAbout)
   return (
     <Layout>
-      <main className="pageContainer">
-        <section className="pageTextContainer grey">
-          <h2 className="sectionTitle coloredOrange">About.</h2>
-          <div className="pageSection sectionText">
-            <p className="lead">
-              Helping <span className="italic">entrepreneurs</span> of all
-              buisinesses achieve their dreams online{' '}
-              <span className="coloredOrange">.</span>
-            </p>
-            <p>
-              Beginning a new venture online is never easy. Worring about
-              building and running a website is part of that concern.
-            </p>
-            <p>
-              Let me help you achieve your dreams online, so you can focus on
-              growing your business and balancing your workload effiently.
-            </p>
+      <main className="aboutContainer">
+        <section className="aboutSectionContainer greyBG">
+          <div className="aboutSection">
+            <div className="aboutText">
+              <h2>About.</h2>
+              <p className="lead">
+                Helping <span className="italic">entrepreneurs</span> of all
+                buisinesses achieve their dreams online{' '}
+                <span className="coloredOrange">.</span>
+              </p>
+              <p>
+                Beginning a new venture online is never easy. Worring about
+                building and running a website is part of that concern.
+              </p>
+              <p>
+                Let me help you achieve your dreams online, so you can focus on
+                growing your business and balancing your workload effiently.
+              </p>
+            </div>
+            <div className="aboutImage dropped">
+              <Img
+                alt={data.compass.name}
+                fluid={data.compass.childImageSharp.fluid}
+                objectFit="cover"
+              />
+            </div>
           </div>
         </section>
-        <div className="pageImageContainer white">
-          <Img
-            className="Image top"
-            alt={data.compass.name}
-            fluid={data.compass.childImageSharp.fluid}
-            objectFit="cover"
-          />
-        </div>
-        <section className="pageTextContainer padandMargin white">
-          <div className="pageSection sectionText">
-            <p className="lead">
-              Growing <span className="italic">businesses</span> and communities{' '}
-              <span className="coloredOrange">.</span>
-            </p>
-            <p>
-              Understanding one another helps build a lasting relationship
-              whilst achieving great results.
-            </p>
-          </div>
-          <div className="pageListing">
-            <div className="pageListingSection">
-              <p>Visual Design, UX / UI</p>
 
+        <section className="aboutSectionContainer">
+          <div className="aboutSection column">
+            <div className="aboutText alignStart">
+              <p className="lead">
+                Growing <span className="italic">businesses</span> and
+                communities <span className="coloredOrange">.</span>
+              </p>
               <p>
-                Designs that look good are never enough. I focus on customer
-                interaction, ease of navigation, efficient code structure and
-                brand identity.
+                Understanding one another helps build a lasting relationship
+                whilst achieving great results.
               </p>
             </div>
-            <div className="pageListingSection">
-              <p>Search Engine Optimisation (SEO)</p>
-              <p>
-                I help websites rank well on Google searches by optimizing every
-                pixel for performance, speed and mobile friendliness.
-              </p>
+
+            <div className="aboutListing">
+              <div>
+                <p>Visual Design, UX / UI</p>
+
+                <p>
+                  Designs that look good are never enough. I focus on customer
+                  interaction, ease of navigation, efficient code structure and
+                  brand identity.
+                </p>
+              </div>
+              <div>
+                <p>Search Engine Optimisation (SEO)</p>
+                <p>
+                  I help websites rank well on Google searches by optimizing
+                  every pixel for performance, speed and mobile friendliness.
+                </p>
+              </div>
+              <div>
+                <p>Training & Development</p>
+                <p>
+                  Completing the website is only part of the solution. I help
+                  you every step of the way to get going online, with continual
+                  training and development.
+                </p>
+              </div>
             </div>
-            <div className="pageListingSection">
-              <p>Training & Development</p>
+          </div>
+        </section>
+
+        <section className="aboutSectionContainer">
+          <div className="aboutSection column">
+            <div className="aboutLargeImage">
+              <Img
+                alt={data.pc.name}
+                fluid={data.pc.childImageSharp.fluid}
+                objectFit="cover"
+              />
+            </div>
+          </div>
+        </section>
+
+        <section className="aboutSectionContainer greyBG">
+          <div className="aboutSection column">
+            <p className="lead">
+              Efficient, <span className="italic">responsive</span> designs are
+              the key to returning customers{' '}
+              <span className="coloredOrange">.</span>
+            </p>
+            <p>
+              Most web designers use online templates to create your website.
+              Although these tools are quick and easy to set up, they come with
+              many flaws.
+            </p>
+            <p>
+              Bloated code, long load times, only partially customisable, are a
+              few of the reasons why these types of sites may not be right for
+              you.
+            </p>
+            <p>
+              I hand-craft all of my code, moulding the site to your needs. All
+              code is fully optimised for loading speed and search engine
+              optimisation.
+            </p>
+          </div>
+        </section>
+
+        <section className="aboutSectionContainer">
+          <div className="aboutSection">
+            <div className="aboutText">
+              <p className="lead">
+                Want to have the <span className="italic">freedom</span> to
+                change information at your convienece{' '}
+                <span className="coloredOrange">?</span>
+              </p>
               <p>
-                Completing the website is only part of the solution. I help you
-                every step of the way to get going online, with continual
-                training and development.
+                Using content management systems (CMS), I can help you easily
+                alter anything on the site you would like to.
+              </p>
+              <p>
+                With an easily accessible interface, changing titles, wording or
+                products has never been easier.
+              </p>
+              <p>
+                Full training will be provided to show you how to{' '}
+                <span className="italic">update information</span> whenever you
+                desire.
               </p>
             </div>
           </div>
         </section>
-        <div className="pageImageContainer largeImage">
-          <Img
-            className="Image"
-            alt={data.pc.name}
-            fluid={data.pc.childImageSharp.fluid}
-            objectFit="cover"
-          />
-        </div>
+
+        <section className="aboutSectionContainer greyBG">
+          <div className="aboutSection">
+            <div className="aboutText">
+              <h2>Why Me ?</h2>
+              <p className="lead">
+                A good <span className="italic">website</span>, more so now than
+                ever, is an important component to a successful business{' '}
+                <span className="coloredOrange">.</span>
+              </p>
+              <p>
+                I can help you achieve a great-looking, fully optimised website
+                suited to your businesses needs.
+              </p>
+              <p>
+                You don’t have to choose between countless hours of learning
+                programming codes or settling for a ‘template’ website.
+              </p>
+            </div>
+
+            <div className="aboutImage raised">
+              <Img
+                alt={data.pc.name}
+                fluid={data.pc.childImageSharp.fluid}
+                objectFit="cover"
+              />
+            </div>
+          </div>
+        </section>
       </main>
     </Layout>
   )

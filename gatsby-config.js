@@ -3,6 +3,7 @@ module.exports = {
     title: `Aaron Duke`,
     description: `Aaron Duke is a Web Developer from Norfolk, UK. Creating custom, bespoke websites for all types of businesses.`,
     author: `@AaronDuke`,
+    siteUrl: `https://aarondukeportfolio.netlify.app/`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,

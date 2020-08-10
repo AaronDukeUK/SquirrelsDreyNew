@@ -48,7 +48,7 @@ const About = () => {
               <h2>About.</h2>
               <p className="lead">
                 Helping <span className="italic">entrepreneurs</span> of all
-                businesses achieve their dreams online{' '}
+                businesses achieve their dreams online
                 <span className="coloredOrange punch">.</span>
               </p>
               <p>
@@ -75,7 +75,7 @@ const About = () => {
             <div className="aboutText alignStart">
               <p className="lead">
                 Growing <span className="italic">businesses</span> and
-                communities <span className="coloredOrange punch">.</span>
+                communities<span className="coloredOrange punch">.</span>
               </p>
               <p>
                 Understanding one another helps build a lasting relationship
@@ -128,7 +128,7 @@ const About = () => {
           <div className="aboutSection column">
             <p className="lead">
               Efficient, <span className="italic">responsive</span> designs are
-              the key to returning customers{' '}
+              the key to returning customers
               <span className="coloredOrange punch">.</span>
             </p>
             <p>
@@ -154,7 +154,7 @@ const About = () => {
             <div className="aboutText">
               <p className="lead">
                 Want to have the <span className="italic">freedom</span> to
-                change information at your convenience{' '}
+                change information at your convenience
                 <span className="coloredOrange punch">?</span>
               </p>
               <p>
@@ -180,7 +180,7 @@ const About = () => {
               <h2>Why Me ?</h2>
               <p className="lead">
                 A good <span className="italic">website,</span> is an important
-                component of a successful business{' '}
+                component of a successful business
                 <span className="coloredOrange punch">.</span>
               </p>
               <p>

@@ -30,11 +30,11 @@ const Custom = () => {
         partialVisibility
       >
         <div className="homeSection">
-          <Slide in={active} direction="right" timeout={1500}>
+          <Slide in={active} direction="right" timeout={2000}>
             <div className="homeText">
               <p className="lead">
                 Each of us are <span className="italic">unique,</span> why
-                should our websites be any different{' '}
+                should our websites be any different
                 <span className="coloredBlue punch">?</span>
               </p>
               <p>Custom built, bespoke websites. Tailor-made to your needs.</p>

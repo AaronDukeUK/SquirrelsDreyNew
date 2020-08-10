@@ -40,11 +40,11 @@ const Speed = () => {
               />
             </div>
           </Fade>
-          <Slide in={active} direction="left" timeout={1500}>
+          <Slide in={active} direction="left" timeout={2000}>
             <div className="homeText">
               <p className="lead">
                 Mobile browsing <span className="italic">dominates</span> todays
-                world <span className="coloredYellow punch">.</span>
+                world<span className="coloredYellow punch">.</span>
               </p>
               <p>
                 Generating <span className="italic">blazing-fast</span>{' '}

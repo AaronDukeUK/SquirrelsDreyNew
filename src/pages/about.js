@@ -12,7 +12,7 @@ const getAbout = graphql`
     notes: file(name: { eq: "notes" }) {
       name
       childImageSharp {
-        fluid(maxWidth: 1000) {
+        fluid {
           ...GatsbyImageSharpFluid
         }
       }
@@ -20,7 +20,7 @@ const getAbout = graphql`
     pc: file(name: { eq: "aboutpc" }) {
       name
       childImageSharp {
-        fluid(maxWidth: 1000) {
+        fluid {
           ...GatsbyImageSharpFluid
         }
       }
@@ -28,7 +28,7 @@ const getAbout = graphql`
     phone: file(name: { eq: "phone" }) {
       name
       childImageSharp {
-        fluid(maxWidth: 1000) {
+        fluid {
           ...GatsbyImageSharpFluid
         }
       }

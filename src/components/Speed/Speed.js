@@ -8,7 +8,7 @@ const getSpeed = graphql`
     file(name: { eq: "speed" }) {
       name
       childImageSharp {
-        fluid(maxWidth: 1000) {
+        fluid {
           ...GatsbyImageSharpFluid
         }
       }
@@ -44,7 +44,7 @@ const Speed = () => {
             with speed and security in mind.
           </p>
           <Link className="link speedLink" to="/about">
-            How are websites optimized?
+            How are my websites optimized?
           </Link>
           <h2 className="coloredYellow">Speed.</h2>
         </div>

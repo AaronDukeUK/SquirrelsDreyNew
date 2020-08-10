@@ -10,7 +10,7 @@ const getProjects = graphql`
     fairy: file(name: { eq: "fairies" }) {
       name
       childImageSharp {
-        fluid(maxWidth: 1000) {
+        fluid {
           ...GatsbyImageSharpFluid
         }
       }
@@ -18,7 +18,7 @@ const getProjects = graphql`
     wood: file(name: { eq: "wood" }) {
       name
       childImageSharp {
-        fluid(maxWidth: 1000) {
+        fluid {
           ...GatsbyImageSharpFluid
         }
       }
@@ -26,7 +26,7 @@ const getProjects = graphql`
     sd: file(name: { eq: "squirrel" }) {
       name
       childImageSharp {
-        fluid(maxWidth: 1000) {
+        fluid {
           ...GatsbyImageSharpFluid
         }
       }
@@ -52,7 +52,7 @@ const Projects = () => {
           </div>
         </div>
       </section>
-      <div className="projectItemsContainer">
+      <div className="projectItemsContainer greyBG">
         <ProjectItem
           alt={data.fairy.name}
           image={data.fairy.childImageSharp.fluid}

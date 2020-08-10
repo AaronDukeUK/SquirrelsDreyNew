@@ -13,32 +13,39 @@
             margin: 0
 
 .projectItemsContainer
-    width: 95%
+    width: 100%
     display: flex
     align-items: center
     justify-content: center
     flex-wrap: wrap
-    margin: 0 auto 50px auto
+    margin: 0 auto
+    padding: 0 200px 100px 200px
+    @media only screen and (max-width: 1300px)
+        padding: 0 150px 100px 150px
+    @media only screen and (max-width: 800px)
+        padding: 0 100px 100px 100px
+    @media only screen and (max-width: 600px)
+        padding: 0 0 100px 0
+    @media only screen and (max-width: 400px)
+        padding: 0 0 50px 0
 
 //project Items
 .projectItem
-    width: 495px
-    height: 350px
+    width: 500px
+    height: 400px
     position: relative
     overflow: hidden
     margin: 5px
-    @media only screen and (max-width: 1050px)
-        height: 450px
+    flex-grow: 1
     @media only screen and (max-width: 850px)
         height: 350px
     @media only screen and (max-width: 450px)
         height: 100%
-    @media only screen and (max-width: 320px)
-        height: 150px
+
 
 .projectItem:hover
     .colorOverlay
-        height: 150%
+        height: 200%
         transform: skewY(0deg)
     .projectLead
         height: 50%
@@ -95,7 +102,7 @@
     position: absolute
     width: 100%
     height: 10px
-    bottom: -60px
+    bottom: -150px
     left: 0
     z-index: 1
     transform: skewY(10deg)

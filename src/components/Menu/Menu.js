@@ -9,7 +9,7 @@ const getMenu = graphql`
     file(name: { eq: "logo" }) {
       name
       childImageSharp {
-        fluid(maxWidth: 200) {
+        fluid {
           ...GatsbyImageSharpFluid
         }
       }

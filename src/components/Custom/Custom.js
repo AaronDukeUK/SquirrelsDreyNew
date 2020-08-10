@@ -8,7 +8,7 @@ const getCustom = graphql`
     file(name: { eq: "manpaint" }) {
       name
       childImageSharp {
-        fluid(maxWidth: 1000) {
+        fluid {
           ...GatsbyImageSharpFluid
         }
       }

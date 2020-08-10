@@ -1,26 +1,44 @@
 import React from 'react'
 
-import { Link } from 'gatsby'
-
-import { Facebook, Twitter, Github, Dribble } from '../index'
+import { Facebook, Twitter, Github, Dribble, Instagram } from '../index'
 
 import './Social.sass'
 
 const Social = () => {
   return (
     <div className="socialContainer">
-      <Link to="/">
+      <div className="socialLine"></div>
+      <a
+        href="https://dribbble.com/AaronDukeUK"
+        target="_blank"
+        rel="noreferrer"
+      >
         <Dribble />
-      </Link>
-      <Link to="/">
+      </a>
+      <a
+        href="https://twitter.com/AaronDukeUK"
+        target="_blank"
+        rel="noreferrer"
+      >
         <Twitter />
-      </Link>
-      <Link to="/">
+      </a>
+      <a
+        href="https://www.facebook.com/AaronDukeUK"
+        target="_blank"
+        rel="noreferrer"
+      >
         <Facebook />
-      </Link>
-      <Link to="/">
+      </a>
+      <a href="https://github.com/AaronDukeUK" target="_blank" rel="noreferrer">
         <Github />
-      </Link>
+      </a>
+      <a
+        href="https://www.instagram.com/aarondukeuk/"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <Instagram />
+      </a>
     </div>
   )
 }

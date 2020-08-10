@@ -1,6 +1,7 @@
 import React from 'react'
 import { graphql, useStaticQuery } from 'gatsby'
 import Img from 'gatsby-image/withIEPolyfill'
+import { SEO } from '../components'
 
 import { Layout } from '../layouts'
 
@@ -39,6 +40,7 @@ const About = () => {
   const data = useStaticQuery(getAbout)
   return (
     <Layout>
+      <SEO title="About" />
       <main className="aboutContainer">
         <section className="aboutSectionContainer greyBG">
           <div className="aboutSection">

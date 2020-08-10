@@ -20,7 +20,7 @@ const Speed = () => {
   const data = useStaticQuery(getSpeed)
   return (
     <section className="homeSectionContainer">
-      <div className="homeSection">
+      <div className="homeSection speed">
         <div className="homeImage">
           <Img
             className="Image"

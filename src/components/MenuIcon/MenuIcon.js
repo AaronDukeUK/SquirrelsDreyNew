@@ -9,6 +9,7 @@ const MenuIcon = ({ open, setOpen }) => {
       className="menuIconContainer"
       open={open}
       onClick={() => setOpen(!open)}
+      aria-label="Navigation Menu"
     >
       <div />
       <div />

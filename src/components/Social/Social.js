@@ -12,6 +12,7 @@ const Social = () => {
         href="https://twitter.com/AaronDukeUK"
         target="_blank"
         rel="noreferrer"
+        aria-label="Twiiter"
       >
         <Twitter />
       </a>
@@ -19,16 +20,23 @@ const Social = () => {
         href="https://www.facebook.com/AaronDukeUK"
         target="_blank"
         rel="noreferrer"
+        aria-label="Facebook"
       >
         <Facebook />
       </a>
-      <a href="https://github.com/AaronDukeUK" target="_blank" rel="noreferrer">
+      <a
+        href="https://github.com/AaronDukeUK"
+        target="_blank"
+        rel="noreferrer"
+        aria-label="GitHub"
+      >
         <Github />
       </a>
       <a
         href="https://www.instagram.com/aarondukeuk/"
         target="_blank"
         rel="noreferrer"
+        aria-label="Instagram"
       >
         <Instagram />
       </a>
@@ -36,6 +44,7 @@ const Social = () => {
         href="https://dribbble.com/AaronDukeUK"
         target="_blank"
         rel="noreferrer"
+        aria-label="Dribble"
       >
         <Dribble />
       </a>

@@ -8,7 +8,7 @@ const getCustom = graphql`
     file(name: { eq: "manpaint" }) {
       name
       childImageSharp {
-        fluid(maxWidth: 3000) {
+        fluid(maxWidth: 1000) {
           ...GatsbyImageSharpFluid
         }
       }
@@ -33,7 +33,7 @@ const Custom = () => {
             <span className="italic">original content</span>.
           </p>
           <Link className="link customLink" to="/about">
-            Learn More
+            How are my websites unique?
           </Link>
           <h2 className="coloredBlue">Custom.</h2>
         </div>

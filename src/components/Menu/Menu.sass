@@ -24,7 +24,7 @@
     height: 100%
     width: 80%
     padding: 140px 40px 140px 300px
-    
+
     @media only screen and (max-width: 1050px)
         padding: 100px 100px 100px 150px
 
@@ -37,17 +37,24 @@
         padding: 40px
 
     @media screen and (orientation:landscape) and (max-device-width: 850px)
-        flex-direction: row
-        align-items: center
-        justify-content: space-around
+        align-items: flex-start
+        justify-content: space-between
         width: 100%
-        padding: 50px
+        padding: 60px
         .address
-            display: none
+            
         .contact
-            width: 160px
+
         .logo
-            width: 50px
+            position: absolute
+            right: 50px
+            top: 60px
+        .menuLinks
+            position: absolute
+            align-items: flex-end
+            justify-content: center
+            right: 50px
+            bottom: 40px
 
 .menuPanel
     width: 100%
@@ -71,8 +78,4 @@
         background-position: 0% 100%
     a:hover
         background-size: 100% 50%
-    @media screen and (orientation:landscape) and (max-device-width: 850px)
-        width: 30%
-        align-items: center
-        justify-content: center
 

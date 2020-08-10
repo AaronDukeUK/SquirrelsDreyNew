@@ -21,7 +21,6 @@ const Social = () => {
       <Link to="/">
         <Github />
       </Link>
-      <div className="socialLine"></div>
     </div>
   )
 }

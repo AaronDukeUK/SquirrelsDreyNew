@@ -21,7 +21,7 @@ const Menu = ({ open }) => {
   const data = useStaticQuery(getMenu)
   return (
     <StyledMenu open={open} className="menuContainer">
-      <div className="menuText">
+      <div className="menuText greyBG">
         <div className="logo">
           <Img
             className="Image"

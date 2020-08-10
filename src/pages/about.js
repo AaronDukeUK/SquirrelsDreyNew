@@ -48,16 +48,16 @@ const About = () => {
               <h2>About.</h2>
               <p className="lead">
                 Helping <span className="italic">entrepreneurs</span> of all
-                buisinesses achieve their dreams online{' '}
-                <span className="coloredOrange">.</span>
+                businesses achieve their dreams online{' '}
+                <span className="coloredOrange punch">.</span>
               </p>
               <p>
-                Beginning a new venture online is never easy. Worring about
+                Beginning a new venture online is never easy. Worrying about
                 building and running a website is part of that concern.
               </p>
               <p>
                 Let me help you achieve your dreams online, so you can focus on
-                growing your business and balancing your workload effiently.
+                growing your business and balancing your workload efficiently.
               </p>
             </div>
             <div className="aboutImage dropped">
@@ -75,7 +75,7 @@ const About = () => {
             <div className="aboutText alignStart">
               <p className="lead">
                 Growing <span className="italic">businesses</span> and
-                communities <span className="coloredOrange">.</span>
+                communities <span className="coloredOrange punch">.</span>
               </p>
               <p>
                 Understanding one another helps build a lasting relationship
@@ -89,7 +89,7 @@ const About = () => {
 
                 <p>
                   Designs that look good are never enough. I focus on customer
-                  interaction, ease of navigation, efficient code structure and
+                  interaction, ease of navigation, efficient code structure, and
                   brand identity.
                 </p>
               </div>
@@ -97,7 +97,7 @@ const About = () => {
                 <p>Search Engine Optimisation (SEO)</p>
                 <p>
                   I help websites rank well on Google searches by optimizing
-                  every pixel for performance, speed and mobile friendliness.
+                  every pixel for performance, speed, and mobile-friendliness.
                 </p>
               </div>
               <div>
@@ -129,7 +129,7 @@ const About = () => {
             <p className="lead">
               Efficient, <span className="italic">responsive</span> designs are
               the key to returning customers{' '}
-              <span className="coloredOrange">.</span>
+              <span className="coloredOrange punch">.</span>
             </p>
             <p>
               Most web designers use online templates to create your website.
@@ -137,14 +137,14 @@ const About = () => {
               many flaws.
             </p>
             <p>
-              Bloated code, long load times, only partially customisable, are a
+              Bloated code, long load times, only partially customizable, are a
               few of the reasons why these types of sites may not be right for
               you.
             </p>
             <p>
-              I hand-craft all of my code, moulding the site to your needs. All
-              code is fully optimised for loading speed and search engine
-              optimisation.
+              I hand-craft all of my code, molding the site to your needs. All
+              code is fully optimized for loading speed and search engine
+              optimization.
             </p>
           </div>
         </section>
@@ -154,16 +154,16 @@ const About = () => {
             <div className="aboutText">
               <p className="lead">
                 Want to have the <span className="italic">freedom</span> to
-                change information at your convienece{' '}
-                <span className="coloredOrange">?</span>
+                change information at your convenience{' '}
+                <span className="coloredOrange punch">?</span>
               </p>
               <p>
                 Using content management systems (CMS), I can help you easily
                 alter anything on the site you would like to.
               </p>
               <p>
-                With an easily accessible interface, changing titles, wording or
-                products has never been easier.
+                With an easily accessible interface, changing titles, wording,
+                or products has never been easier.
               </p>
               <p>
                 Full training will be provided to show you how to{' '}
@@ -179,17 +179,17 @@ const About = () => {
             <div className="aboutText">
               <h2>Why Me ?</h2>
               <p className="lead">
-                A good <span className="italic">website</span>, more so now than
-                ever, is an important component to a successful business{' '}
-                <span className="coloredOrange">.</span>
+                A good <span className="italic">website,</span> is an important
+                component of a successful business{' '}
+                <span className="coloredOrange punch">.</span>
               </p>
               <p>
-                I can help you achieve a great-looking, fully optimised website
-                suited to your businesses needs.
+                I can help you achieve a great-looking, fully optimized website
+                suited to your business needs.
               </p>
               <p>
-                You don’t have to choose between countless hours of learning
-                programming codes or settling for a ‘template’ website.
+                You don’t have to choose between countless hours of learning how
+                to code or settling for a sub-par ‘template’ website.
               </p>
             </div>
 

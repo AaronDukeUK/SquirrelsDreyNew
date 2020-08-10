@@ -33,15 +33,15 @@ const Speed = () => {
         <div className="homeText">
           <p className="lead">
             Mobile browsing <span className="italic">dominates</span> todays
-            world <span className="coloredYellow">.</span>
+            world <span className="coloredYellow punch">.</span>
           </p>
           <p>
             Generating <span className="italic">blazing-fast</span> websites,
-            suited to todays needs.
+            suited to any needs.
           </p>
           <p>
-            Fully optimised, <span className="italic">handcrafted</span> code to
-            meet any devices needs.
+            Fully optimized, <span className="italic">handcrafted</span> code
+            with speed and security in mind.
           </p>
           <Link className="link speedLink" to="/about">
             Learn More

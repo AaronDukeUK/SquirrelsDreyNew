@@ -2,6 +2,8 @@ import React from 'react'
 
 import Img from 'gatsby-image/withIEPolyfill'
 
+import { Arrow } from '../index'
+
 import './ProjectItem.sass'
 
 const ProjectItem = props => {
@@ -11,7 +13,13 @@ const ProjectItem = props => {
       <div className="projectOverlay">
         <p className="projectCategory">{props.category}</p>
         <p className="projectTitle">{props.title}</p>
-        <p className="projectLead">{props.lead}</p>
+        <div className="projectLead">
+          <p>{props.lead}</p>
+          <a href={props.link} target="_blank" rel="noreferrer">
+            Visit Site
+            <Arrow />
+          </a>
+        </div>
       </div>
       <Img
         className="projectImage"

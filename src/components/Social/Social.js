@@ -9,13 +9,6 @@ const Social = () => {
     <div className="socialContainer">
       <div className="socialLine"></div>
       <a
-        href="https://dribbble.com/AaronDukeUK"
-        target="_blank"
-        rel="noreferrer"
-      >
-        <Dribble />
-      </a>
-      <a
         href="https://twitter.com/AaronDukeUK"
         target="_blank"
         rel="noreferrer"
@@ -38,6 +31,13 @@ const Social = () => {
         rel="noreferrer"
       >
         <Instagram />
+      </a>
+      <a
+        href="https://dribbble.com/AaronDukeUK"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <Dribble />
       </a>
     </div>
   )

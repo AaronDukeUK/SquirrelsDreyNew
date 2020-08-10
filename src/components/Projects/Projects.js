@@ -45,7 +45,7 @@ const Projects = () => {
             <p className="lead">
               Enough talk, lets look at some of{' '}
               <span className="italic">my work</span>
-              <span className="coloredOrange"> .</span>
+              <span className="coloredOrange punch"> .</span>
             </p>
           </div>
           <div className="projectItemsContainer">
@@ -53,24 +53,27 @@ const Projects = () => {
               alt={data.fairy.name}
               image={data.fairy.childImageSharp.fluid}
               category="E-commerce website"
-              title="Fairies of Tranquility."
-              lead="New E-commerce store for Handmade fairy products."
+              title="Fairies of Tranquility"
+              lead="Handmade Fairy Products."
+              link="https://fairiesoftranquility.netlify.app/"
               bgClass="yellowBG"
             />
             <ProjectItem
               alt={data.wood.name}
               image={data.wood.childImageSharp.fluid}
               category="Brochure website"
-              title="Wood Wizards."
-              lead="Bespoke garden furnitue based in Norfolk, UK."
+              title="Wood Wizards"
+              lead="Bespoke Garden Furniture."
+              link="https://wood-wizards.netlify.app/"
               bgClass="blueBG"
             />
             <ProjectItem
               alt={data.sd.name}
               image={data.sd.childImageSharp.fluid}
               category="Restaurant website"
-              title="Squirrels Drey."
-              lead="Fine Dining Restuarant, Locally Sourced Ingredients."
+              title="Squirrels Drey"
+              lead="Fine Dining Restuarant."
+              link="https://www.squirrelsdrey.co.uk/"
               bgClass="orangeBG"
             />
           </div>

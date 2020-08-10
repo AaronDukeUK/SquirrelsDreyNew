@@ -24,11 +24,30 @@
     height: 100%
     width: 80%
     padding: 140px 40px 140px 300px
+    
     @media only screen and (max-width: 1050px)
         padding: 100px 100px 100px 150px
+
     @media only screen and (max-width: 600px)
         width: 90%
-        padding: 50px 100px
+        padding: 50px
+
+    @media only screen and (max-width: 400px)
+        width: 100%
+        padding: 40px
+
+    @media screen and (orientation:landscape) and (max-device-width: 850px)
+        flex-direction: row
+        align-items: center
+        justify-content: space-around
+        width: 100%
+        padding: 50px
+        .address
+            display: none
+        .contact
+            width: 160px
+        .logo
+            width: 50px
 
 .menuPanel
     width: 100%
@@ -36,6 +55,8 @@
     background: rgba(38,70,83,0.9)
     @media only screen and (max-width: 600px)
         width: 10%
+    @media screen and (orientation:landscape) and (max-device-width: 850px)
+        display: none
 
 
 .menuLinks
@@ -49,6 +70,9 @@
         background-size: 0% 50%
         background-position: 0% 100%
     a:hover
-       
         background-size: 100% 50%
+    @media screen and (orientation:landscape) and (max-device-width: 850px)
+        width: 30%
+        align-items: center
+        justify-content: center
 

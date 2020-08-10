@@ -13,6 +13,7 @@
     @media only screen and (max-width: 1300px)
         flex-direction: column
         align-items: flex-start
+        justify-content: center
         height: auto
         padding: 40px 150px
         .contact
@@ -25,6 +26,16 @@
         padding: 100px 100px
     @media only screen and (max-width: 600px)
         padding: 50px
+    @media only screen and (max-width: 400px)
+        padding: 40px
+    @media screen and (orientation:landscape) and (max-device-width: 850px)
+        height: 100vh
+        .contact
+            margin: 20px 0
+        .address
+            margin: 20px 0
+        .logo
+            margin: 20px 0
     
 
 .contact
@@ -40,6 +51,8 @@
     margin-bottom: 300px
     @media only screen and (max-width: 1300px)
         margin-bottom: 550px
+    @media screen and (orientation:landscape) and (max-device-width: 850px)
+        margin-bottom: 100vh
 
 .logo
     margin: 10px

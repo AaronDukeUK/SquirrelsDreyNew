@@ -7,6 +7,10 @@
     margin: 0 0 100px 0
     h2
         margin: 0 0 40px 0
+    @media only screen and (max-width: 600px)
+        margin: 0 0 50px 0
+    @media only screen and (max-width: 400px)
+        margin: 0 0 40px 0
 
 .projectItemsContainer
     width: 100%
@@ -27,6 +31,10 @@
         height: 450px
     @media only screen and (max-width: 850px)
         height: 350px
+    @media only screen and (max-width: 400px)
+        height: 250px
+    @media only screen and (max-width: 320px)
+        height: 150px
 
 .projectItem:hover
     .colorOverlay
@@ -38,6 +46,8 @@
         font-size: 2rem
         @media only screen and (max-width: 850px)
             font-size: 1.6rem
+        @media only screen and (max-width: 320px)
+            font-size: 1rem
 
 .projectOverlay
     position: absolute
@@ -57,6 +67,8 @@
     margin: 0
     font-weight: 400
     color: white
+    @media only screen and (max-width: 320px)
+        display: none
 
 .projectTitle
     font-size: 1.5rem
@@ -65,6 +77,8 @@
     letter-spacing: 0.2rem
     color: white
     transition: 0.65s ease-in-out
+    @media only screen and (max-width: 320px)
+        font-size: 0.9rem
 
 .colorOverlay
     position: absolute
@@ -75,6 +89,8 @@
     z-index: 1
     transform: skewY(10deg)
     transition: 0.65s ease-in-out
+    @media only screen and (max-width: 320px)
+        bottom: -50px
 
 .projectLead
     height: 0
@@ -82,3 +98,7 @@
     overflow: hidden
     transition: 0.65s ease-in-out
     margin: 0
+    @media only screen and (max-width: 400px)
+        font-size: 0.8rem
+    @media only screen and (max-width: 320px)
+        font-size: 0.7rem

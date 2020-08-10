@@ -2,6 +2,9 @@ import styled from 'styled-components'
 
 export const StyledMenuIcon = styled.button`
   left: ${({ open }) => (open ? '25px' : '25px')};
+  @media only screen and (max-width: 600px) {
+    left: 10px;
+  }
   &:focus {
     outline: none;
   }

@@ -37,49 +37,51 @@ const getProjects = graphql`
 const Projects = () => {
   const data = useStaticQuery(getProjects)
   return (
-    <section className="homeContainer noPaddingBottom">
-      <div className="homeSectionContainer greyBG">
-        <div className="homeSection projects">
-          <div className="projectsTextContainer">
-            <h2 className="coloredOrange">Work.</h2>
-            <p className="lead">
-              Enough talk, lets look at some of{' '}
-              <span className="italic">my work</span>
-              <span className="coloredOrange punch"> .</span>
-            </p>
-          </div>
-          <div className="projectItemsContainer">
-            <ProjectItem
-              alt={data.fairy.name}
-              image={data.fairy.childImageSharp.fluid}
-              category="E-commerce website"
-              title="Fairies of Tranquility"
-              lead="Handmade Fairy Products."
-              link="https://fairiesoftranquility.netlify.app/"
-              bgClass="yellowBG"
-            />
-            <ProjectItem
-              alt={data.wood.name}
-              image={data.wood.childImageSharp.fluid}
-              category="Brochure website"
-              title="Wood Wizards"
-              lead="Bespoke Garden Furniture."
-              link="https://wood-wizards.netlify.app/"
-              bgClass="blueBG"
-            />
-            <ProjectItem
-              alt={data.sd.name}
-              image={data.sd.childImageSharp.fluid}
-              category="Restaurant website"
-              title="Squirrels Drey"
-              lead="Fine Dining Restuarant."
-              link="https://www.squirrelsdrey.co.uk/"
-              bgClass="orangeBG"
-            />
+    <>
+      <section className="homeContainer noPaddingBottom">
+        <div className="homeSectionContainer greyBG">
+          <div className="homeSection projects">
+            <div className="projectsTextContainer">
+              <h2 className="coloredOrange">Work.</h2>
+              <p className="lead">
+                Enough talk, lets look at some of{' '}
+                <span className="italic">my work</span>
+                <span className="coloredOrange punch"> .</span>
+              </p>
+            </div>
           </div>
         </div>
+      </section>
+      <div className="projectItemsContainer">
+        <ProjectItem
+          alt={data.fairy.name}
+          image={data.fairy.childImageSharp.fluid}
+          category="E-commerce website"
+          title="Fairies of Tranquility"
+          lead="Handmade Fairy Products."
+          link="https://fairiesoftranquility.netlify.app/"
+          bgClass="yellowBG"
+        />
+        <ProjectItem
+          alt={data.wood.name}
+          image={data.wood.childImageSharp.fluid}
+          category="Brochure website"
+          title="Wood Wizards"
+          lead="Bespoke Garden Furniture."
+          link="https://wood-wizards.netlify.app/"
+          bgClass="blueBG"
+        />
+        <ProjectItem
+          alt={data.sd.name}
+          image={data.sd.childImageSharp.fluid}
+          category="Restaurant website"
+          title="Squirrels Drey"
+          lead="Fine Dining Restuarant."
+          link="https://www.squirrelsdrey.co.uk/"
+          bgClass="orangeBG"
+        />
       </div>
-    </section>
+    </>
   )
 }
 

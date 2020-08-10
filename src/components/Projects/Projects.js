@@ -1,7 +1,5 @@
-import React, { useState } from 'react'
+import React from 'react'
 import { graphql, useStaticQuery } from 'gatsby'
-import VizSensor from 'react-visibility-sensor'
-import { Grow } from '@material-ui/core'
 
 import { ProjectItem } from '../index'
 
@@ -28,7 +26,7 @@ const getProjects = graphql`
     sd: file(name: { eq: "squirrel" }) {
       name
       childImageSharp {
-        fluid(maxWidth: 1500) {
+        fluid(maxWidth: 2000) {
           ...GatsbyImageSharpFluid
         }
       }
@@ -38,7 +36,6 @@ const getProjects = graphql`
 
 const Projects = () => {
   const data = useStaticQuery(getProjects)
-  let [active, setActive] = useState(false)
   return (
     <>
       <section className="homeContainer noPaddingBottom">
@@ -56,46 +53,37 @@ const Projects = () => {
         </div>
       </section>
 
-      <VizSensor
-        onChange={isVisible => {
-          setActive(isVisible)
-        }}
-        partialVisibility
-      >
-        <Grow in={active} timeout={1000}>
-          <div className="projectItemsContainer greyBG">
-            <ProjectItem
-              alt={data.fairy.name}
-              image={data.fairy.childImageSharp.fluid}
-              category="E-commerce website"
-              title="Fairies of Tranquility"
-              lead="Handmade Fairy Products."
-              link="https://fairiesoftranquility.netlify.app/"
-              bgClass="yellowBG"
-            />
+      <div className="projectItemsContainer greyBG">
+        <ProjectItem
+          alt={data.fairy.name}
+          image={data.fairy.childImageSharp.fluid}
+          category="E-commerce website"
+          title="Fairies of Tranquility"
+          lead="Handmade Fairy Products."
+          link="https://fairiesoftranquility.netlify.app/"
+          bgClass="yellowBG"
+        />
 
-            <ProjectItem
-              alt={data.wood.name}
-              image={data.wood.childImageSharp.fluid}
-              category="Brochure website"
-              title="Wood Wizards"
-              lead="Bespoke Garden Furniture."
-              link="https://wood-wizards.netlify.app/"
-              bgClass="blueBG"
-            />
+        <ProjectItem
+          alt={data.wood.name}
+          image={data.wood.childImageSharp.fluid}
+          category="Brochure website"
+          title="Wood Wizards"
+          lead="Bespoke Garden Furniture."
+          link="https://wood-wizards.netlify.app/"
+          bgClass="blueBG"
+        />
 
-            <ProjectItem
-              alt={data.sd.name}
-              image={data.sd.childImageSharp.fluid}
-              category="Restaurant website"
-              title="Squirrels Drey"
-              lead="Fine Dining Restuarant."
-              link="https://www.squirrelsdrey.co.uk/"
-              bgClass="orangeBG"
-            />
-          </div>
-        </Grow>
-      </VizSensor>
+        <ProjectItem
+          alt={data.sd.name}
+          image={data.sd.childImageSharp.fluid}
+          category="Restaurant website"
+          title="Squirrels Drey"
+          lead="Fine Dining Restuarant."
+          link="https://www.squirrelsdrey.co.uk/"
+          bgClass="orangeBG"
+        />
+      </div>
     </>
   )
 }

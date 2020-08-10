@@ -1,5 +1,7 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { graphql, useStaticQuery } from 'gatsby'
+import VizSensor from 'react-visibility-sensor'
+import { Fade } from '@material-ui/core'
 import Img from 'gatsby-image/withIEPolyfill'
 import { SEO } from '../components'
 
@@ -38,6 +40,7 @@ const getAbout = graphql`
 
 const About = () => {
   const data = useStaticQuery(getAbout)
+  let [active, setActive] = useState(false)
   return (
     <Layout>
       <SEO title="About" />
@@ -60,13 +63,22 @@ const About = () => {
                 growing your business and balancing your workload efficiently.
               </p>
             </div>
-            <div className="aboutImage dropped">
-              <Img
-                alt={data.notes.name}
-                fluid={data.notes.childImageSharp.fluid}
-                objectFit="cover"
-              />
-            </div>
+            <VizSensor
+              onChange={isVisible => {
+                setActive(isVisible)
+              }}
+              partialVisibility
+            >
+              <Fade in={active} timeout={3000}>
+                <div className="aboutImage dropped">
+                  <Img
+                    alt={data.notes.name}
+                    fluid={data.notes.childImageSharp.fluid}
+                    objectFit="cover"
+                  />
+                </div>
+              </Fade>
+            </VizSensor>
           </div>
         </section>
 

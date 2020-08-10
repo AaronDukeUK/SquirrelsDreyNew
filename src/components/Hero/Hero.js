@@ -1,5 +1,5 @@
 import React from 'react'
-import { Fade, Slide } from '@material-ui/core'
+import { Slide } from '@material-ui/core'
 import './Hero.sass'
 
 const Hero = () => {

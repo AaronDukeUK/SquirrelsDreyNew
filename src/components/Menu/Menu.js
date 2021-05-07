@@ -34,19 +34,19 @@ const Menu = ({ open }) => {
           <Link className="customLink" to="/" activeClassName="activeLink">
             Home
           </Link>
-          <Link className="speedLink" to="/about" activeClassName="activeLink">
-            About
+          <Link className="speedLink" to="/menu" activeClassName="activeLink">
+            Menu
           </Link>
         </div>
         <div className="address">
-          <p>70 The Street, Kings Lynn, PE32 2DR</p>
-          <p>+44(0) 7435 236295</p>
-          <p>hello@aaronduke.co.uk</p>
+          <p>The Squirrels Drey</p>
+          <p>The Street, Kings Lynn, PE32 2DR</p>
+          <p>+44(0) 1760 788101</p>
         </div>
         <div className="contact">
-          <p>Want to work with me?</p>
-          <a href="mailto:hello@aaronduke.co.uk">
-            <p className="bold largeText">BRIEF ME.</p>
+          <p>Want to book a table?</p>
+          <a href="tel:01760788101">
+            <p className="bold largeText">CALL US.</p>
           </a>
         </div>
       </div>

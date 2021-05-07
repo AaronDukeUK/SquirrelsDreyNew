@@ -9,9 +9,9 @@ import { Layout } from '../layouts'
 
 import './about.sass'
 
-const getAbout = graphql`
+const getMenu = graphql`
   {
-    notes: file(name: { eq: "notes" }) {
+    notes: file(name: { eq: "rest" }) {
       name
       childImageSharp {
         fluid {
@@ -19,7 +19,7 @@ const getAbout = graphql`
         }
       }
     }
-    pc: file(name: { eq: "aboutpc" }) {
+    pc: file(name: { eq: "chicken" }) {
       name
       childImageSharp {
         fluid {
@@ -27,7 +27,7 @@ const getAbout = graphql`
         }
       }
     }
-    phone: file(name: { eq: "phone" }) {
+    phone: file(name: { eq: "seabass" }) {
       name
       childImageSharp {
         fluid {
@@ -38,29 +38,27 @@ const getAbout = graphql`
   }
 `
 
-const About = () => {
-  const data = useStaticQuery(getAbout)
+const Menu = () => {
+  const data = useStaticQuery(getMenu)
   let [active, setActive] = useState(false)
   return (
     <Layout>
-      <SEO title="About" />
+      <SEO title="Menu" />
       <main className="aboutContainer">
         <section className="aboutSectionContainer greyBG">
           <div className="aboutSection">
             <div className="aboutText">
-              <h2>About.</h2>
+              <h2>Menu.</h2>
               <p className="lead">
-                Helping <span className="italic">entrepreneurs</span> of all
-                businesses achieve their dreams online
+                Homemade, <span className="italic">locally-sourced</span> produce for everyone to enjoy
                 <span className="coloredOrange punch">.</span>
               </p>
               <p>
-                Beginning a new venture online is never easy. Worrying about
-                building and running a website is part of that concern.
+                We Pride ourselves on using fresh, locally sourced produce throughout our seasonal menus.
+                All of our dishes are made on site so we can cater to any dietary requirements you may have.
               </p>
               <p>
-                Let me help you achieve your dreams online, so you can focus on
-                growing your business and balancing your workload efficiently.
+                Due to current events, we understand if you would rather takeaway our food, so collection is also available.
               </p>
             </div>
             <VizSensor
@@ -86,39 +84,37 @@ const About = () => {
           <div className="aboutSection column">
             <div className="aboutText alignStart">
               <p className="lead">
-                Growing <span className="italic">businesses</span> and
-                communities<span className="coloredOrange punch">.</span>
+                Sunday <span className="italic">Lunches</span> served 1200 to 1500<span className="coloredOrange punch">.</span>
               </p>
               <p>
-                Understanding one another helps build a lasting relationship
-                whilst achieving great results.
+                Gluten-free, Dairy-free and Vegan also available.
               </p>
             </div>
 
             <div className="aboutListing">
               <div>
-                <p>Visual Design, UX / UI</p>
-
-                <p>
-                  Designs that look good are never enough. I focus on customer
-                  interaction, ease of navigation, efficient code structure, and
-                  brand identity.
-                </p>
+                <p>Starters</p>
+                <p>Sweet pea velouté, smoked ham hock, hand baked rosemary and rock salt focaccia GF</p>
+                <p>Smoked sous vide partridge, black pudding, baby tatties, poacked quails egg, liquorice jus GF</p>
+                <p>Popcorn cockles, sweet chilli and red wine vinegar GF</p>
+                <p className="title">Salads</p>
+                <p>Hay roast chicken, sweetcorn panna cotta, pomegranate, maple cured bacon salad, stem ginger and vanilla syrup GF</p>
+                <p>Spiced chorizo, parma ham, harissa chicken, thyme blushed tomatoes, herbed olives, smoked garlic hummus, rosemary and rock salt focaccia</p>
               </div>
               <div>
-                <p>Search Engine Optimisation (SEO)</p>
-                <p>
-                  I help websites rank well on Google searches by optimizing
-                  every pixel for performance, speed, and mobile-friendliness.
-                </p>
+                <p>Mains</p>
+                <p>Pot roast beef brisket, caramelized shallot mash, wilted kale, horseraddish crisps, bordelaise jus GF</p>
+                <p>Sustainably sourced beer battered fish du jour, beef dripping chips, crushed garden mint peas, lemon zest and chervil aioli GF</p>
+                <p>Sandringham red pole beef patty, maple cured bacon, smoked Norfolk dapple, beef dripping chips, beet and rhubarb relish GF</p>
+                <p>Blossom honey and clove baked ham hock, crispy duck egg, sweet marrow pickle, beef dripping chips</p>
+                <p>Roast balsamic beetroot arancini, spiced baked apple and Cointreau orangle leaf salad, goat curd, walnut praline GF</p>
               </div>
               <div>
-                <p>Training & Development</p>
-                <p>
-                  Completing the website is only part of the solution. I help
-                  you every step of the way to get going online, with continual
-                  training and development.
-                </p>
+                <p>Desserts</p>
+                <p>Bramly and pear oat crumble, honey blossom ice cream</p>
+                <p>Basil and lime zest cheesecake, poppy seed tuile</p>
+                <p>Lavendar créme brulee, stem ginger shortbread</p>
+                <p>Homemade regularly changing icecreams</p>
               </div>
             </div>
           </div>
@@ -139,24 +135,14 @@ const About = () => {
         <section className="aboutSectionContainer greyBG">
           <div className="aboutSection column">
             <p className="lead">
-              Efficient, <span className="italic">responsive</span> designs are
-              the key to returning customers
+              Our Traditional Sunday Lunches
               <span className="coloredOrange punch">.</span>
             </p>
             <p>
-              Most web designers use online templates to create your website.
-              Although these tools are quick and easy to set up, they come with
-              many flaws.
+              Norfolk Beef Sirloin / Norfolk Leg of Lamb / Fruit and Nut Roast V
             </p>
             <p>
-              Bloated code, long load times, only partially customizable, are a
-              few of the reasons why these types of sites may not be right for
-              you.
-            </p>
-            <p>
-              I hand-craft all of my code, molding the site to your needs. All
-              code is fully optimized for loading speed and search engine
-              optimization.
+              All served with seasonal vegetables, braised red cabbage, roast garlic and rosemary potatoes, sausage and apricot stuffing, homemade jus. GF
             </p>
           </div>
         </section>
@@ -164,24 +150,20 @@ const About = () => {
         <section className="aboutSectionContainer">
           <div className="aboutSection">
             <div className="aboutText">
+              <h2>About.</h2>
               <p className="lead">
-                Want to have the <span className="italic">freedom</span> to
-                change information at your convenience
+                Why choose to <span className="italic">dine</span> with us
                 <span className="coloredOrange punch">?</span>
               </p>
               <p>
-                Using content management systems (CMS), I can help you easily
-                alter anything on the site you would like to.
+                We are a welcoming and relaxed, family run traditional village pub / restaurant,
+                situated in the quaint village of Sporle, Norfolk. Offering both dine in and collection.
               </p>
               <p>
-                With an easily accessible interface, changing titles, wording,
-                or products has never been easier.
+                Here at The Squirrels Drey, we understand it can sometimes be difficult to dine out when you have dietary requirements.
+                That is why almost all of our dishes can be adapted according to your needs, just let us know.
               </p>
-              <p>
-                Full training will be provided to show you how to{' '}
-                <span className="italic">update information</span> whenever you
-                desire.
-              </p>
+
             </div>
           </div>
         </section>
@@ -189,20 +171,12 @@ const About = () => {
         <section className="aboutSectionContainer greyBG">
           <div className="aboutSection">
             <div className="aboutText">
-              <h2>Why Me ?</h2>
               <p className="lead">
-                A good <span className="italic">website,</span> is an important
-                component of a successful business
+                What to <span className="italic">find out</span> more?
+                Just get in touch
                 <span className="coloredOrange punch">.</span>
               </p>
-              <p>
-                I can help you achieve a great-looking, fully optimized website
-                suited to your business needs.
-              </p>
-              <p>
-                You don’t have to choose between countless hours of learning how
-                to code or settling for a sub-par ‘template’ website.
-              </p>
+              <p>Feel free to contact us about any questions or queries you may have. We are always happy to help</p>
             </div>
 
             <div className="aboutImage raised">
@@ -219,4 +193,4 @@ const About = () => {
   )
 }
 
-export default About
+export default Menu

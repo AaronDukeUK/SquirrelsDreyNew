@@ -1,9 +1,9 @@
 module.exports = {
   siteMetadata: {
-    title: `Aaron Duke`,
-    description: `Aaron Duke is a Web Developer from Norfolk, UK. Creating custom, bespoke websites for all types of businesses.`,
+    title: `The Squirrels Drey`,
+    description: `The Squirrels Drey Pub & Restaurant in Sporle, Swaffham, Norfolk. Boasting fresh, locally sourced, homemade food in an idyllic location. Vegan and Vegetarians, Gluten Free and Dairy Free, we can cater to any dietary requirement.`,
     author: `@AaronDuke`,
-    siteUrl: `https://aaronduke.co.uk/`,
+    siteUrl: `https://squirrelsdrey.co.uk`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,

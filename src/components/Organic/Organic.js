@@ -3,11 +3,11 @@ import { graphql, useStaticQuery, Link } from 'gatsby'
 import VizSensor from 'react-visibility-sensor'
 import { Fade } from '@material-ui/core'
 import Img from 'gatsby-image/withIEPolyfill'
-import './Speed.sass'
+import './Organic.sass'
 
-const getSpeed = graphql`
+const getOrganic = graphql`
   {
-    file(name: { eq: "speed" }) {
+    file(name: { eq: "allotment" }) {
       name
       childImageSharp {
         fluid {
@@ -18,8 +18,8 @@ const getSpeed = graphql`
   }
 `
 
-const Speed = () => {
-  const data = useStaticQuery(getSpeed)
+const Organic = () => {
+  const data = useStaticQuery(getOrganic)
   let [active, setActive] = useState(false)
   return (
     <section className="homeSectionContainer">
@@ -43,21 +43,15 @@ const Speed = () => {
 
           <div className="homeText">
             <p className="lead">
-              Mobile browsing <span className="italic">dominates</span> todays
-              world<span className="coloredYellow punch">.</span>
+              Our very own <span className="italic">Allotment</span> provides the ingredients on your plate<span className="coloredYellow punch">.</span>
             </p>
             <p>
-              Generating <span className="italic">blazing-fast</span> websites,
-              suited to any needs.
+              Situated just a few <span className="italic">miles away</span>. Organic, fresh produce.
             </p>
-            <p>
-              Fully optimized, <span className="italic">handcrafted</span> code
-              with speed and security in mind.
-            </p>
-            <Link className="link speedLink" to="/about">
-              How are my websites optimized?
+            <Link className="link organicLink" to="/menu">
+              Is there a dish which suits you?
             </Link>
-            <h2 className="coloredYellow">Speed.</h2>
+            <h2 className="coloredYellow">Organic.</h2>
           </div>
         </div>
       </VizSensor>
@@ -65,4 +59,4 @@ const Speed = () => {
   )
 }
 
-export default Speed
+export default Organic

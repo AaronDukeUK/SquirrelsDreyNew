@@ -3,11 +3,11 @@ import { graphql, useStaticQuery, Link } from 'gatsby'
 import VizSensor from 'react-visibility-sensor'
 import { Fade } from '@material-ui/core'
 import Img from 'gatsby-image/withIEPolyfill'
-import './Custom.sass'
+import './Sourced.sass'
 
-const getCustom = graphql`
+const getSourced = graphql`
   {
-    file(name: { eq: "manpaint" }) {
+    file(name: { eq: "shortbreads" }) {
       name
       childImageSharp {
         fluid {
@@ -18,8 +18,8 @@ const getCustom = graphql`
   }
 `
 
-const Custom = () => {
-  const data = useStaticQuery(getCustom)
+const Sourced = () => {
+  const data = useStaticQuery(getSourced)
   let [active, setActive] = useState(false)
   return (
     <section className="homeSectionContainer greyBG">
@@ -32,19 +32,18 @@ const Custom = () => {
         <div className="homeSection">
           <div className="homeText">
             <p className="lead">
-              Each of us are <span className="italic">unique,</span> why should
-              our websites be any different
-              <span className="coloredBlue punch">?</span>
+              We take <span className="italic">pride</span> in what we do.
+              Locally-sourced ingredients
+              <span className="coloredBlue punch">.</span>
             </p>
-            <p>Custom built, bespoke websites. Tailor-made to your needs.</p>
+            <p>All of our meals are freshly prepared on a daily basis.</p>
             <p>
-              No templates, no copies, 100%{' '}
-              <span className="italic">original content</span>.
+              Relaxed, <span className="italic">sociable</span> & friendly.
             </p>
-            <Link className="link customLink" to="/about">
-              How are my websites unique?
+            <Link className="link sourcedLink" to="/menu">
+              Looking for the menu?
             </Link>
-            <h2 className="coloredBlue">Custom.</h2>
+            <h2 className="coloredBlue">Locally Sourced.</h2>
           </div>
 
           <Fade in={active} timeout={3000}>
@@ -62,4 +61,4 @@ const Custom = () => {
   )
 }
 
-export default Custom
+export default Sourced

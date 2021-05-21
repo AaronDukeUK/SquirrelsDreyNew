@@ -95,7 +95,7 @@ const Menu = () => {
               <div>
                 <p>Starters</p>
                 <p>Sweet pea velouté, smoked ham hock, hand baked rosemary and rock salt focaccia GF</p>
-                <p>Smoked sous vide partridge, black pudding, baby tatties, poacked quails egg, liquorice jus GF</p>
+                <p>Smoked sous vide partridge, black pudding, baby tatties, poached quails egg, liquorice jus GF</p>
                 <p>Popcorn cockles, sweet chilli and red wine vinegar GF</p>
                 <p className="title">Salads</p>
                 <p>Hay roast chicken, sweetcorn panna cotta, pomegranate, maple cured bacon salad, stem ginger and vanilla syrup GF</p>
@@ -103,17 +103,17 @@ const Menu = () => {
               </div>
               <div>
                 <p>Mains</p>
-                <p>Pot roast beef brisket, caramelized shallot mash, wilted kale, horseraddish crisps, bordelaise jus GF</p>
+                <p>Pot roast beef brisket, caramelized shallot mash, wilted kale, horseradish crisps, bordelaise jus GF</p>
                 <p>Sustainably sourced beer battered fish du jour, beef dripping chips, crushed garden mint peas, lemon zest and chervil aioli GF</p>
                 <p>Sandringham red pole beef patty, maple cured bacon, smoked Norfolk dapple, beef dripping chips, beet and rhubarb relish GF</p>
                 <p>Blossom honey and clove baked ham hock, crispy duck egg, sweet marrow pickle, beef dripping chips</p>
-                <p>Roast balsamic beetroot arancini, spiced baked apple and Cointreau orangle leaf salad, goat curd, walnut praline GF</p>
+                <p>Roast balsamic beetroot arancini, spiced baked apple and Cointreau orange leaf salad, goat curd, walnut praline GF</p>
               </div>
               <div>
                 <p>Desserts</p>
                 <p>Bramly and pear oat crumble, honey blossom ice cream</p>
                 <p>Basil and lime zest cheesecake, poppy seed tuile</p>
-                <p>Lavendar créme brulee, stem ginger shortbread</p>
+                <p>Lavender créme brulee, stem ginger shortbread</p>
                 <p>Homemade regularly changing icecreams</p>
               </div>
             </div>

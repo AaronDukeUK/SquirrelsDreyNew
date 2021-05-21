@@ -7,7 +7,7 @@ import { SEO } from '../components'
 
 import { Layout } from '../layouts'
 
-import './about.sass'
+import './menu.sass'
 
 const getMenu = graphql`
   {
@@ -122,6 +122,7 @@ const Menu = () => {
 
         <section className="aboutSectionContainer">
           <div className="aboutSection column">
+
             <div className="aboutLargeImage">
               <Img
                 alt={data.pc.name}
@@ -129,6 +130,7 @@ const Menu = () => {
                 objectFit="cover"
               />
             </div>
+
           </div>
         </section>
 

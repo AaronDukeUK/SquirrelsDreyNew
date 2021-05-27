@@ -106,7 +106,7 @@ const Menu = () => {
                 <p>Pot roast beef brisket, caramelized shallot mash, wilted kale, horseradish crisps, bordelaise jus GF</p>
                 <p>Sustainably sourced beer battered fish du jour, beef dripping chips, crushed garden mint peas, lemon zest and chervil aioli GF</p>
                 <p>Sandringham red pole beef patty, maple cured bacon, smoked Norfolk dapple, beef dripping chips, beet and rhubarb relish GF</p>
-                <p>Blossom honey and clove baked ham hock, crispy duck egg, sweet marrow pickle, beef dripping chips</p>
+                <p>Blossom honey and clove baked ham hock, crispy duck egg, sweet piccalilli, beef dripping chips</p>
                 <p>Roast balsamic beetroot arancini, spiced baked apple and Cointreau orange leaf salad, goat curd, walnut praline GF</p>
               </div>
               <div>
@@ -174,7 +174,7 @@ const Menu = () => {
           <div className="aboutSection">
             <div className="aboutText">
               <p className="lead">
-                What to <span className="italic">find out</span> more?
+                Want to <span className="italic">find out</span> more?
                 Just get in touch
                 <span className="coloredOrange punch">.</span>
               </p>

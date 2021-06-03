@@ -94,24 +94,23 @@ const Menu = () => {
             <div className="aboutListing">
               <div>
                 <p>Starters</p>
-                <p>Sweet pea velouté, smoked ham hock, hand baked rosemary and rock salt focaccia GF</p>
+                <p>Sweet pea soup, smoked ham hock, hand baked rosemary and rock salt focaccia GF</p>
                 <p>Smoked sous vide partridge, black pudding, baby tatties, poached quails egg, liquorice jus GF</p>
                 <p>Popcorn cockles, sweet chilli and red wine vinegar GF</p>
-                <p className="title">Salads</p>
-                <p>Hay roast chicken, sweetcorn panna cotta, pomegranate, maple cured bacon salad, stem ginger and vanilla syrup GF</p>
-                <p>Spiced chorizo, parma ham, harissa chicken, thyme blushed tomatoes, herbed olives, smoked garlic hummus, rosemary and rock salt focaccia</p>
+                <p className="title">Burgers</p>
+                <p>Smoked beef brisket, maple cured bacon, smoked cheddar, beef dripping chips, honey and bourbon bbq ketchup GF</p>
+                <p>Roast butternut, sweet potato and red pepper burger, smoked mozzarella, chunky chips, harissa mayo GF V</p>
               </div>
               <div>
                 <p>Mains</p>
-                <p>Pot roast beef brisket, caramelized shallot mash, wilted kale, horseradish crisps, bordelaise jus GF</p>
-                <p>Sustainably sourced beer battered fish du jour, beef dripping chips, crushed garden mint peas, lemon zest and chervil aioli GF</p>
-                <p>Sandringham red pole beef patty, maple cured bacon, smoked Norfolk dapple, beef dripping chips, beet and rhubarb relish GF</p>
-                <p>Blossom honey and clove baked ham hock, crispy duck egg, sweet piccalilli, beef dripping chips</p>
-                <p>Roast balsamic beetroot arancini, spiced baked apple and Cointreau orange leaf salad, goat curd, walnut praline GF</p>
+                <p>Naturally smoked haddock fishcake, sauteed asparagus, poached hen’s egg, bearnaise sauce</p>
+                <p>Spiced chorizo, parma ham, harissa chicken, thyme blushed tomatoes, herbed olives, smoked garlic hummus, rosemary focaccia</p>
+                <p>Blossom honey and clove baked ham hock, crispy hens egg, sweet piccalilli, beef dripping chips GF</p>
+                <p>Buttermilk chicken, thyme polenta chips, sundried tomato salad, charred corn on the cob, cheddar slaw GF</p>
               </div>
               <div>
                 <p>Desserts</p>
-                <p>Bramly and pear oat crumble, honey blossom ice cream</p>
+                <p>Bramly and summer berry oat crumble, honey blossom ice cream</p>
                 <p>Basil and lime zest cheesecake, poppy seed tuile</p>
                 <p>Lavender créme brulee, stem ginger shortbread</p>
                 <p>Homemade regularly changing icecreams</p>

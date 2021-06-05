@@ -5,6 +5,8 @@ import { Fade } from '@material-ui/core'
 import Img from 'gatsby-image/withIEPolyfill'
 import './Pudding.sass'
 
+import PUD from '../../files/PUD.pdf';
+
 const getPudding = graphql`
   {
     file(name: { eq: "icecream" }) {
@@ -39,8 +41,10 @@ const Pudding = () => {
             <p>
               Last <span className="italic">Friday</span> of every month.
             </p>
-            <Link className="link puddingLink" to="/menu">
-              Find out more
+            <Link className="link puddingLink">
+              <a href={PUD} download>
+                Download Menu
+              </a>
             </Link>
             <h2 className="coloredOrange">Pudding.</h2>
           </div>

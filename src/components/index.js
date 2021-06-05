@@ -5,6 +5,7 @@ import { Social } from './Social'
 import { Menu } from './Menu'
 import { Hero } from './Hero'
 import { Sourced } from './Sourced'
+import { Discount } from './Discount'
 import { Organic } from './Organic'
 import { Pudding } from './Pudding'
 import { Footer } from './Footer'
@@ -32,6 +33,7 @@ export {
   Hero,
   Sourced,
   Organic,
+  Discount,
   Pudding,
   Footer,
 }

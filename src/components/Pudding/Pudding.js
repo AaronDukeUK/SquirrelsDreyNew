@@ -24,7 +24,7 @@ const Pudding = () => {
   const data = useStaticQuery(getPudding)
   let [active, setActive] = useState(false)
   return (
-    <section className="homeSectionContainer greyBG">
+    <section className="homeSectionContainer">
       <VizSensor
         onChange={isVisible => {
           setActive(isVisible)

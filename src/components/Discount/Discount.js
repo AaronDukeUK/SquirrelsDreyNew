@@ -3,11 +3,11 @@ import { graphql, useStaticQuery, Link } from 'gatsby'
 import VizSensor from 'react-visibility-sensor'
 import { Fade } from '@material-ui/core'
 import Img from 'gatsby-image/withIEPolyfill'
-import './Organic.sass'
+import './Discount.sass'
 
-const getOrganic = graphql`
+const getDiscount = graphql`
   {
-    file(name: { eq: "allotment" }) {
+    file(name: { eq: "profit" }) {
       name
       childImageSharp {
         fluid {
@@ -18,8 +18,8 @@ const getOrganic = graphql`
   }
 `
 
-const Organic = () => {
-  const data = useStaticQuery(getOrganic)
+const Discount = () => {
+  const data = useStaticQuery(getDiscount)
   let [active, setActive] = useState(false)
   return (
     <section className="homeSectionContainer greyBG">
@@ -43,15 +43,15 @@ const Organic = () => {
 
           <div className="homeText">
             <p className="lead">
-              Our very own <span className="italic">Allotment</span> provides the ingredients on your plate<span className="coloredYellow punch">.</span>
+              Our Midweek <span className="italic">Discount</span> every Wednesday and Thursday<span className="coloredPurple punch">.</span>
             </p>
             <p>
-              Situated just a few <span className="italic">miles away</span>. Organic, fresh produce.
+              15% off when <span className="italic">dining</span>.
             </p>
-            <Link className="link organicLink" to="/menu">
-              Is there a dish which suits you?
-            </Link>
-            <h2 className="coloredYellow">Organic.</h2>
+            <p>
+              Terms & Conditions apply.
+            </p>
+            <h2 className="coloredPurple">MIDWEEK.</h2>
           </div>
         </div>
       </VizSensor>
@@ -59,4 +59,4 @@ const Organic = () => {
   )
 }
 
-export default Organic
+export default Discount

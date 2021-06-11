@@ -94,24 +94,22 @@ const Menu = () => {
             <div className="aboutListing">
               <div>
                 <p>Starters</p>
-                <p>Sweet pea soup, smoked ham hock, hand baked rosemary and rock salt focaccia GF</p>
-                <p>Smoked sous vide partridge, black pudding, baby tatties, poached quails egg, liquorice jus GF</p>
+                <p>Sweet pea soup, garden mint, hand baked rosemary and rock salt focaccia GF</p>
                 <p>Popcorn cockles, sweet chilli and red wine vinegar GF</p>
                 <p className="title">Burgers</p>
-                <p>Smoked beef brisket, maple cured bacon, smoked cheddar, beef dripping chips, honey and bourbon bbq ketchup GF</p>
+                <p>Norfolk reared steak burger, mature cheddar, back bacon, beef dripping chips, honey and bourbon bbq sauce GF</p>
                 <p>Roast butternut, sweet potato and red pepper burger, smoked mozzarella, chunky chips, harissa mayo GF V</p>
               </div>
               <div>
                 <p>Mains</p>
                 <p>Naturally smoked haddock fishcake, sauteed asparagus, poached hen’s egg, bearnaise sauce</p>
-                <p>Spiced chorizo, parma ham, harissa chicken, thyme blushed tomatoes, herbed olives, smoked garlic hummus, rosemary focaccia</p>
-                <p>Blossom honey and clove baked ham hock, crispy hens egg, sweet piccalilli, beef dripping chips GF</p>
-                <p>Buttermilk chicken, thyme polenta chips, sundried tomato salad, charred corn on the cob, cheddar slaw GF</p>
+                <p>Slow roast pork belly, caramelised onion kale, fondant potato, cider jus GF</p>
+                <p>bbq meat feast pizza, bbq chicken, chorizo, peppered pastrami, smoked mozzarella, beef dripping chips, thyme tomato salad</p>
+                <p>Buttermilk chicken, sun blushed tomato and thyme salad, beef dripping chips, cheddar and sweetcorn slaw GF</p>
               </div>
               <div>
                 <p>Desserts</p>
                 <p>Bramly and summer berry oat crumble, honey blossom ice cream</p>
-                <p>Basil and lime zest cheesecake, poppy seed tuile</p>
                 <p>Lavender créme brulee, stem ginger shortbread</p>
                 <p>Homemade regularly changing icecreams</p>
               </div>

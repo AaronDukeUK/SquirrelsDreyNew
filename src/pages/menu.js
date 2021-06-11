@@ -106,6 +106,7 @@ const Menu = () => {
                 <p>Slow roast pork belly, caramelised onion kale, fondant potato, cider jus GF</p>
                 <p>bbq meat feast pizza, bbq chicken, chorizo, peppered pastrami, smoked mozzarella, beef dripping chips, thyme tomato salad</p>
                 <p>Buttermilk chicken, sun blushed tomato and thyme salad, beef dripping chips, cheddar and sweetcorn slaw GF</p>
+                <p>Pan seared sea bass, crab ravioli, courgette noodles, roast thyme potatoes, sweet and sour broth</p>
               </div>
               <div>
                 <p>Desserts</p>

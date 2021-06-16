@@ -50,8 +50,7 @@ const Menu = () => {
             <div className="aboutText">
               <h2>Menu.</h2>
               <p className="lead">
-                Homemade, <span className="italic">locally-sourced</span> produce for everyone to enjoy
-                <span className="coloredOrange punch">.</span>
+                Homemade, <span className="italic">locally-sourced</span> produce for everyone to enjoy.
               </p>
               <p>
                 We Pride ourselves on using fresh, locally sourced produce throughout our seasonal menus.
@@ -84,7 +83,7 @@ const Menu = () => {
           <div className="aboutSection column">
             <div className="aboutText alignStart">
               <p className="lead">
-                Sunday <span className="italic">Lunches</span> served 1200 to 1500<span className="coloredOrange punch">.</span>
+                Sunday <span className="italic">Lunches</span> served 1200 to 1500
               </p>
               <p>
                 Gluten-free, Dairy-free and Vegan also available.
@@ -94,25 +93,27 @@ const Menu = () => {
             <div className="aboutListing">
               <div>
                 <p>Starters</p>
-                <p>Sweet pea soup, garden mint, hand baked rosemary and rock salt focaccia GF</p>
+                <p>Toasted handmade seasalt and rosemary focaccia, herbed pitted olives, dipping oil</p>
                 <p>Popcorn cockles, sweet chilli and red wine vinegar GF</p>
-                <p className="title">Burgers</p>
-                <p>Norfolk reared steak burger, mature cheddar, back bacon, beef dripping chips, honey and bourbon bbq sauce GF</p>
-                <p>Roast butternut, sweet potato and red pepper burger, smoked mozzarella, chunky chips, harissa mayo GF V</p>
+                <p>Two-way rabbit, thyme hash, kale crisps, spiced pear and port relish GF</p>
+                <p>Ham hock bonbons, smoked cheddar tart, caramelised onion puree, cider and sage jelly</p>
               </div>
               <div>
                 <p>Mains</p>
-                <p>Naturally smoked haddock fishcake, sauteed asparagus, poached hen’s egg, bearnaise sauce</p>
-                <p>Slow roast pork belly, caramelised onion kale, fondant potato, cider jus GF</p>
-                <p>bbq meat feast pizza, bbq chicken, chorizo, peppered pastrami, smoked mozzarella, beef dripping chips, thyme tomato salad</p>
-                <p>Buttermilk chicken, sun blushed tomato and thyme salad, beef dripping chips, cheddar and sweetcorn slaw GF</p>
-                <p>Pan seared sea bass, crab ravioli, courgette noodles, roast thyme potatoes, sweet and sour broth</p>
+                <p>Norfolk-reared sirloin steak, thyme polenta chips, roasted vine tomatoes, smoked aubergine puree, watercress pesto GF</p>
+                <p>Slow roast pork belly, sauteed summer beans, smoked lardons, fondant potato, baked bramley puree GF</p>
+                <p>Slow braised brisket, porcini mushroom and stilton wellington, grandpa’s cabbage, smoked celeriac croquettes, port jus</p>
+                <p>Pan seared sea bass, crab ravioli, courgette noodles, roast jerseys, sweet and sour broth GF</p>
+                <p>Sustainably-sourced beer battered hake, beef dripping chips, crushed mint peas, lemon and chervil aioli GF</p>
+                <p>Norfolk reared steak burger, smoked cheddar, beef dripping chips, sweet chilli and bacon jam GF</p>
+                <p>Roast butternut, sweet potato and red pepper burger, smoked mozzarella, chunky chips, harissa mayo V GF</p>
               </div>
               <div>
                 <p>Desserts</p>
-                <p>Bramly and summer berry oat crumble, honey blossom ice cream</p>
-                <p>Lavender créme brulee, stem ginger shortbread</p>
-                <p>Homemade regularly changing icecreams</p>
+                <p>Apple and summer berry oat crumble, star anise crème anglaise</p>
+                <p>Treacle and walnut tart, toasted barley ice cream, salted caramel sauce</p>
+                <p>White chocolate and raspberry crème brûlée, orange blossom shortbread</p>
+                <p>Homemade ice cream selection</p>
               </div>
             </div>
           </div>
@@ -136,7 +137,6 @@ const Menu = () => {
           <div className="aboutSection column">
             <p className="lead">
               Our Traditional Sunday Lunches
-              <span className="coloredOrange punch">.</span>
             </p>
             <p>
               Norfolk Beef Sirloin / Norfolk Leg of Lamb / Fruit and Nut Roast V
@@ -152,8 +152,7 @@ const Menu = () => {
             <div className="aboutText">
               <h2>About.</h2>
               <p className="lead">
-                Why choose to <span className="italic">dine</span> with us
-                <span className="coloredOrange punch">?</span>
+                Why choose to <span className="italic">dine</span> with us?
               </p>
               <p>
                 We are a welcoming and relaxed, family run traditional village pub / restaurant,
@@ -173,8 +172,7 @@ const Menu = () => {
             <div className="aboutText">
               <p className="lead">
                 Want to <span className="italic">find out</span> more?
-                Just get in touch
-                <span className="coloredOrange punch">.</span>
+                Just get in touch.
               </p>
               <p>Feel free to contact us about any questions or queries you may have. We are always happy to help</p>
             </div>

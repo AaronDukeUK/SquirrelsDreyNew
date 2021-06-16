@@ -29,7 +29,7 @@ const Footer = () => {
       </div>
       <div className="address">
         <p>The Squirrels Drey</p>
-        <p>The Street, Kings Lynn, PE32 2DR</p>
+        <p>Sporle, Kings Lynn, PE32 2DR</p>
         <p>+44(0) 1760 788101</p>
       </div>
       <div className="logo">

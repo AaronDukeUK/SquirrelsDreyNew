@@ -43,7 +43,7 @@ const Organic = () => {
 
           <div className="homeText">
             <p className="lead">
-              Our very own <span className="italic">Allotment</span> provides the ingredients on your plate<span className="coloredYellow punch">.</span>
+              Our very own <span className="italic">Allotment</span> provides the ingredients on your plate.
             </p>
             <p>
               Situated just a few <span className="italic">miles away</span>. Organic, fresh produce.

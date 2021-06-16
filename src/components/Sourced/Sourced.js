@@ -33,8 +33,7 @@ const Sourced = () => {
           <div className="homeText">
             <p className="lead">
               We take <span className="italic">pride</span> in what we do.
-              Locally-sourced ingredients
-              <span className="coloredBlue punch">.</span>
+              Locally-sourced ingredients.
             </p>
             <p>All of our meals are freshly prepared on a daily basis.</p>
             <p>

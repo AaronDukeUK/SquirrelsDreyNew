@@ -43,7 +43,7 @@ const Discount = () => {
 
           <div className="homeText">
             <p className="lead">
-              Our Midweek <span className="italic">Discount</span> every Wednesday and Thursday<span className="coloredPurple punch">.</span>
+              Our Midweek <span className="italic">Discount</span> every Wednesday and Thursday.
             </p>
             <p>
               15% off when <span className="italic">dining</span>.

@@ -34,8 +34,7 @@ const Pudding = () => {
         <div className="homeSection">
           <div className="homeText">
             <p className="lead">
-              Once a <span className="italic">month</span> we hold our very own pudding club
-              <span className="coloredOrange punch">.</span>
+              Once a <span className="italic">month</span> we hold our very own pudding club.
             </p>
             <p>A platter of handmade desserts along with a specially selected main course.</p>
             <p>

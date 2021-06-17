@@ -93,27 +93,27 @@ const Menu = () => {
             <div className="aboutListing">
               <div>
                 <p>Starters</p>
-                <p>Toasted handmade seasalt and rosemary focaccia, herbed pitted olives, dipping oil</p>
-                <p>Popcorn cockles, sweet chilli and red wine vinegar GF</p>
-                <p>Two-way rabbit, thyme hash, kale crisps, spiced pear and port relish GF</p>
-                <p>Ham hock bonbons, smoked cheddar tart, caramelised onion puree, cider and sage jelly</p>
+                <p>Toasted handmade seasalt and rosemary focaccia, herb pitted olives, dipping oil | £5.50</p>
+                <p>Popcorn cockles, sweet chilli and red wine vinegar | GF | £8.50</p>
+                <p>Two-way rabbit, thyme hash, kale crisps, spiced pear and port relish | GF | £9.00</p>
+                <p>Ham hock bonbons, smoked cheddar tart, caramelised onion puree, cider and sage jelly | £9.00</p>
               </div>
               <div>
                 <p>Mains</p>
-                <p>Norfolk-reared sirloin steak, thyme polenta chips, roasted vine tomatoes, smoked aubergine puree, watercress pesto GF</p>
-                <p>Slow roast pork belly, sauteed summer beans, smoked lardons, fondant potato, baked bramley puree GF</p>
-                <p>Slow braised brisket, porcini mushroom and stilton wellington, grandpa’s cabbage, smoked celeriac croquettes, port jus</p>
-                <p>Pan seared sea bass, crab ravioli, courgette noodles, roast jerseys, sweet and sour broth GF</p>
-                <p>Sustainably-sourced beer battered hake, beef dripping chips, crushed mint peas, lemon and chervil aioli GF</p>
-                <p>Norfolk reared steak burger, smoked cheddar, beef dripping chips, sweet chilli and bacon jam GF</p>
-                <p>Roast butternut, sweet potato and red pepper burger, smoked mozzarella, chunky chips, harissa mayo V GF</p>
+                <p>Norfolk-reared sirloin steak, thyme polenta chips, roasted vine tomatoes, smoked aubergine puree, watercress pesto | GF | £26.00</p>
+                <p>Slow roast pork belly, sauteed summer beans, smoked lardons, fondant potato, baked bramley puree | GF | £17.50</p>
+                <p>Slow braised brisket, porcini mushroom and stilton wellington, grandpa’s cabbage, smoked celeriac croquettes, port jus | £19.00</p>
+                <p>Pan seared sea bass, crab ravioli, courgette noodles, roast jerseys, sweet and sour broth | GF | £19.00</p>
+                <p>Sustainably-sourced beer battered hake, beef dripping chips, crushed mint peas, lemon and chervil aioli | GF | £16.00</p>
+                <p>Norfolk reared steak burger, smoked cheddar, beef dripping chips, sweet chilli and bacon jam | GF | £15.50</p>
+                <p>Roast butternut, sweet potato and red pepper burger, smoked mozzarella, chunky chips, harissa mayo | V GF | £14.50</p>
               </div>
               <div>
                 <p>Desserts</p>
-                <p>Apple and summer berry oat crumble, star anise crème anglaise</p>
-                <p>Treacle and walnut tart, toasted barley ice cream, salted caramel sauce</p>
-                <p>White chocolate and raspberry crème brûlée, orange blossom shortbread</p>
-                <p>Homemade ice cream selection</p>
+                <p>Apple and summer berry oat crumble, star anise crème anglaise | V GF | £6.50</p>
+                <p>Treacle and walnut tart, toasted barley ice cream, salted caramel sauce | V | £6.50</p>
+                <p>White chocolate and raspberry crème brûlée, orange blossom shortbread | V GF | £6.50</p>
+                <p>Homemade ice cream selection | V GF | £3.25</p>
               </div>
             </div>
           </div>

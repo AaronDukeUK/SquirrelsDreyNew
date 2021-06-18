@@ -103,7 +103,7 @@ const Menu = () => {
                 <p>Norfolk-reared sirloin steak, thyme polenta chips, roasted vine tomatoes, smoked aubergine puree, watercress pesto | GF | £26.00</p>
                 <p>Slow roast pork belly, sauteed summer beans, smoked lardons, fondant potato, baked bramley puree | GF | £17.50</p>
                 <p>Slow braised brisket, porcini mushroom and stilton wellington, grandpa’s cabbage, smoked celeriac croquettes, port jus | £19.00</p>
-                <p>Pan seared sea bass, crab ravioli, courgette noodles, roast jerseys, sweet and sour broth | GF | £19.00</p>
+                <p>Pan seared salmon, sauteed chorizo and jersey royals, stem broccoli, red pepper pesto, buckwheat tuile | GF | £18.00</p>
                 <p>Sustainably-sourced beer battered hake, beef dripping chips, crushed mint peas, lemon and chervil aioli | GF | £16.00</p>
                 <p>Norfolk reared steak burger, smoked cheddar, beef dripping chips, sweet chilli and bacon jam | GF | £15.50</p>
                 <p>Roast butternut, sweet potato and red pepper burger, smoked mozzarella, chunky chips, harissa mayo | V GF | £14.50</p>

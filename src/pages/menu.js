@@ -100,10 +100,10 @@ const Menu = () => {
               </div>
               <div>
                 <p>Mains</p>
-                <p>Norfolk-reared sirloin steak, beef dripping chips, roasted vine tomatoes, smoked garlic and peppercorn sauce | GF | £24.00</p>
+                <p>10oz Norfolk-reared sirloin steak, beef dripping chips, roasted vine tomatoes, smoked garlic and peppercorn sauce | GF | £22.00</p>
                 <p>Slow roast pork belly, sauteed summer beans, smoked lardons, fondant potato, baked bramley puree | GF | £17.50</p>
                 <p>Slow braised brisket, porcini mushroom and stilton wellington, grandpa’s cabbage, smoked celeriac croquettes, port jus | £19.00</p>
-                <p>Oven roasted cod loin, minted jersey royals, stem broccoli, sweet pea veloute, parma ham crisp | GF | £18.50</p>
+                <p>Oven baked coley, confit peppers, stem broccoli, roast sweet potato harissa puree, chorizo oil | GF | £18.00</p>
                 <p>Sustainably-sourced beer battered hake, beef dripping chips, crushed mint peas, lemon and chervil aioli | GF | £14.50</p>
                 <p>Norfolk reared steak burger, smoked cheddar, beef dripping chips, sweet chilli and bacon jam | GF | £15.50</p>
                 <p>Roast butternut, sweet potato and red pepper burger, smoked mozzarella, chunky chips, harissa mayo | V GF | £14.50</p>

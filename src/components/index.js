@@ -8,6 +8,7 @@ import { Sourced } from './Sourced'
 import { Discount } from './Discount'
 import { Organic } from './Organic'
 import { Pudding } from './Pudding'
+import { Hours } from './Hours'
 import { Footer } from './Footer'
 
 import {
@@ -35,6 +36,7 @@ export {
   Organic,
   Discount,
   Pudding,
+  Hours,
   Footer,
 }
 

@@ -1,13 +1,13 @@
 import React, { useState } from 'react'
-import { graphql, useStaticQuery } from 'gatsby'
+import { graphql, useStaticQuery, Link } from 'gatsby'
 import VizSensor from 'react-visibility-sensor'
 import { Fade } from '@material-ui/core'
 import Img from 'gatsby-image/withIEPolyfill'
-import './Discount.sass'
+import './Hours.sass'
 
-const getDiscount = graphql`
+const getHours = graphql`
   {
-    file(name: { eq: "profit" }) {
+    file(name: { eq: "clock" }) {
       name
       childImageSharp {
         fluid {
@@ -18,8 +18,8 @@ const getDiscount = graphql`
   }
 `
 
-const Discount = () => {
-  const data = useStaticQuery(getDiscount)
+const Hours = () => {
+  const data = useStaticQuery(getHours)
   let [active, setActive] = useState(false)
   return (
     <section className="homeSectionContainer greyBG">
@@ -43,15 +43,15 @@ const Discount = () => {
 
           <div className="homeText">
             <p className="lead">
-              Our Midweek <span className="italic">Discount</span> every Wednesday and Thursday.
+              When are <span className="italic">we</span> open?
             </p>
-            <p>
-              15% off when <span className="italic">dining</span>.
-            </p>
-            <p>
-              Terms & Conditions apply.
-            </p>
-            <h2 className="coloredPurple">MIDWEEK.</h2>
+            <p>Weds - 1730 to 2130</p>
+            <p>Thur - 1730 to 2130</p>
+            <p>Fri - 1730 to 2130</p>
+            <p>Sat - 1730 to 2130</p>
+            <p>Sun - 1200 to 1600</p>
+
+            <h2 className="coloredPink">Hours.</h2>
           </div>
         </div>
       </VizSensor>
@@ -59,4 +59,4 @@ const Discount = () => {
   )
 }
 
-export default Discount
+export default Hours

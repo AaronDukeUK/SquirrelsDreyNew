@@ -104,9 +104,8 @@ const Menu = () => {
                 <p>Slow roast pork belly, sauteed summer beans, smoked lardons, fondant potato, baked bramley puree | GF | £17.50</p>
                 <p>Slow braised brisket, porcini mushroom and stilton wellington, grandpa’s cabbage, smoked celeriac croquettes, port jus | £19.00</p>
                 <p>Oven baked coley, confit peppers, stem broccoli, roast sweet potato harissa puree, chorizo oil | GF | £18.00</p>
-                <p>Sustainably-sourced beer battered hake, beef dripping chips, crushed mint peas, lemon and chervil aioli | GF | £14.50</p>
-                <p>Norfolk reared steak burger, smoked cheddar, beef dripping chips, sweet chilli and bacon jam | GF | £15.50</p>
-                <p>Roast butternut, sweet potato and red pepper burger, smoked mozzarella, chunky chips, harissa mayo | V GF | £14.50</p>
+                <p>Braised beef and ale pie, roast jersey potatoes, heritage thyme carrots, baked onion puree | £15.00</p>
+                <p>Wild mushroom and ricotta tortellini, garden beans, toasted cashew nuts, beurre noisette sauce, sage crisps | V | £16.00</p>
               </div>
               <div>
                 <p>Desserts</p>

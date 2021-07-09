@@ -94,23 +94,23 @@ const Menu = () => {
               <div>
                 <p>Starters</p>
                 <p>Toasted handmade seasalt and rosemary focaccia, herb pitted olives, dipping oil | £5.50</p>
-                <p>Popcorn cockles, sweet chilli and red wine vinegar | GF | £8.50</p>
+                <p>Popcorn cockles, sweet chilli and red wine vinegar | GF | £8.00</p>
                 <p>Two-way rabbit, thyme hash, kale crisps, spiced pear and port relish | GF | £9.00</p>
                 <p>Ham hock bonbons, smoked cheddar tart, caramelised onion puree, cider and sage jelly | £9.00</p>
               </div>
               <div>
                 <p>Mains</p>
-                <p>10oz Norfolk-reared sirloin steak, beef dripping chips, roasted vine tomatoes, smoked garlic and peppercorn sauce | GF | £22.00</p>
-                <p>Slow roast pork belly, sauteed summer beans, smoked lardons, fondant potato, baked bramley puree | GF | £17.50</p>
-                <p>Slow braised brisket, porcini mushroom and stilton wellington, grandpa’s cabbage, smoked celeriac croquettes, port jus | £19.00</p>
-                <p>Oven baked coley, confit peppers, stem broccoli, roast sweet potato harissa puree, chorizo oil | GF | £18.00</p>
-                <p>Braised beef and ale pie, roast jersey potatoes, heritage thyme carrots, baked onion puree | £15.00</p>
-                <p>Wild mushroom and ricotta tortellini, garden beans, toasted cashew nuts, beurre noisette sauce, sage crisps | V | £16.00</p>
+                <p>Lamb breast, pistachio and fig, rosemary cauliflower, rose harissa scone, romesco sauce | N GF | £22.00</p>
+                <p>Pork belly, Garden beans, smoked lardons, fondant potato, bramley puree | GF | £17.50</p>
+                <p>Braised brisket, cep and stilton wellington, grandpa’s cabbage, smoked celeriac croquettes, port jus | £19.00</p>
+                <p>Fillet of coley, confit peppers, stem broccoli, sweet potato harissa puree, chorizo oil | GF | £18.00</p>
+                <p>Beef and ale pie, Roast jersey potatoes, heritage thyme carrots, onion puree | £15.00</p>
+                <p>Cep and smoked ricotta tortellini, sage crisps, garden beans, cashew nut butter | N V | £16.00</p>
               </div>
               <div>
                 <p>Desserts</p>
                 <p>Apple and summer berry oat crumble, star anise crème anglaise | V GF | £6.50</p>
-                <p>Treacle and walnut tart, toasted barley ice cream, salted caramel sauce | V | £6.50</p>
+                <p>Treacle and walnut tart, toasted barley ice cream, salted caramel sauce | N V | £6.50</p>
                 <p>White chocolate and raspberry crème brûlée, orange blossom shortbread | V GF | £6.50</p>
                 <p>Homemade ice cream selection | V GF | £3.25</p>
               </div>

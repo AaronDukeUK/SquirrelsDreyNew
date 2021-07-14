@@ -12,7 +12,6 @@ const Border = () => {
       <StyledBorder className="border" open={open}></StyledBorder>
       <MenuIcon open={open} setOpen={setOpen} />
       <Menu open={open} setOpen={setOpen} />
-      <Social />
     </>
   )
 }

@@ -19,7 +19,7 @@ const getMenu = graphql`
         }
       }
     }
-    pc: file(name: { eq: "chicken" }) {
+    pc: file(name: { eq: "GFGREVIEW" }) {
       name
       childImageSharp {
         fluid {
@@ -118,15 +118,17 @@ const Menu = () => {
           </div>
         </section>
 
-        <section className="aboutSectionContainer">
+        <section className="aboutSectionContainer menuReview">
           <div className="aboutSection column">
 
             <div className="aboutLargeImage">
-              <Img
-                alt={data.pc.name}
-                fluid={data.pc.childImageSharp.fluid}
-                objectFit="cover"
-              />
+              <a href="https://www.thegoodfoodguide.co.uk/feedback" target="_blank">
+                <Img
+                  alt={data.pc.name}
+                  fluid={data.pc.childImageSharp.fluid}
+                  objectFit="cover"
+                />
+              </a>
             </div>
 
           </div>
@@ -186,7 +188,7 @@ const Menu = () => {
           </div>
         </section>
       </main>
-    </Layout>
+    </Layout >
   )
 }
 

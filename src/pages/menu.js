@@ -94,7 +94,7 @@ const Menu = () => {
               <div>
                 <p>Starters</p>
                 <p>Toasted handmade seasalt and rosemary focaccia, herb pitted olives, dipping oil | £5.50</p>
-                <p>Popcorn cockles, sweet chilli and red wine vinegar | GF | £8.00</p>
+                <p>Liquorice and beet cured salmon, citrus crème fraiche, pickled fennel, broad beans | GF | £8.50</p>
                 <p>Two-way rabbit, thyme hash, kale crisps, spiced pear and port relish | GF | £9.00</p>
                 <p>Ham hock bonbons, smoked cheddar tart, caramelised onion puree, cider and sage jelly | £9.00</p>
               </div>
@@ -109,7 +109,7 @@ const Menu = () => {
               </div>
               <div>
                 <p>Desserts</p>
-                <p>Apple and summer berry oat crumble, star anise crème anglaise | V GF | £6.50</p>
+                <p>Apple and allotment strawberry oat crumble, star anise crème anglaise | V GF | £6.50</p>
                 <p>Treacle and walnut tart, toasted barley ice cream, salted caramel sauce | N V | £6.50</p>
                 <p>White chocolate and raspberry crème brûlée, orange blossom shortbread | V GF | £6.50</p>
                 <p>Homemade ice cream selection | V GF | £3.25</p>

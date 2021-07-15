@@ -12,7 +12,6 @@ const IndexPage = () => {
         <Discount />
         <Sourced />
         <Organic />
-        <Pudding />
         <Hours />
       </main>
     </Layout>

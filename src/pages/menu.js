@@ -100,7 +100,7 @@ const Menu = () => {
               </div>
               <div>
                 <p>Mains</p>
-                <p>Lamb breast, pistachio and fig, rosemary cauliflower, rose harissa scone, romesco sauce | N GF | £18.00</p>
+                <p>Lamb breast, pistachio and fig, rosemary cauliflower, potato harissa scone, romesco sauce | N GF | £18.00</p>
                 <p>Pork belly, Garden beans, smoked lardons, fondant potato, bramley puree | GF | £17.50</p>
                 <p>Braised brisket, cep and stilton wellington, grandpa’s cabbage, smoked celeriac croquettes, port jus | £19.00</p>
                 <p>Fillet of coley, confit peppers, stem broccoli, sweet potato harissa puree, chorizo oil | GF | £18.00</p>

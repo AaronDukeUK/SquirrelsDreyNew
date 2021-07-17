@@ -93,25 +93,25 @@ const Menu = () => {
             <div className="aboutListing">
               <div>
                 <p>Starters</p>
-                <p>Toasted handmade seasalt and rosemary focaccia, herb pitted olives, dipping oil | £5.50</p>
-                <p>Liquorice and beet cured salmon, citrus crème fraiche, pickled fennel, broad beans | GF | £8.50</p>
-                <p>Two-way rabbit, thyme hash, kale crisps, spiced pear and port relish | GF | £9.00</p>
-                <p>Ham hock bonbons, smoked cheddar tart, caramelised onion puree, cider and sage jelly | £9.00</p>
+                <p>Toasted handmade seasalt and rosemary focaccia, herb pitted olives, dipping oil | £6</p>
+                <p>Liquorice and beet cured salmon, citrus crème fraiche, pickled fennel, broad beans | GF | £8</p>
+                <p>Two-way rabbit, thyme hash, kale crisps, spiced pear and port relish | GF | £9</p>
+                <p>Ham hock bonbons, smoked cheddar tart, caramelised onion puree, cider and sage jelly | £8.50</p>
               </div>
               <div>
                 <p>Mains</p>
-                <p>Lamb breast, pistachio and fig, rosemary cauliflower, potato harissa scone, romesco sauce | N GF | £18.00</p>
+                <p>Lamb breast, pistachio and fig, rosemary cauliflower, potato harissa scone, romesco sauce | N GF | £18</p>
                 <p>Pork belly, Garden beans, smoked lardons, fondant potato, bramley puree | GF | £17.50</p>
-                <p>Braised brisket, cep and stilton wellington, grandpa’s cabbage, smoked celeriac croquettes, port jus | £19.00</p>
-                <p>Fillet of coley, confit peppers, stem broccoli, sweet potato harissa puree, chorizo oil | GF | £18.00</p>
-                <p>Beef and ale pie, Roast jersey potatoes, heritage thyme carrots, onion puree | £15.00</p>
-                <p>Cep and smoked ricotta tortellini, sage crisps, garden beans, cashew nut butter | N V | £16.00</p>
+                <p>Braised brisket, cep and stilton wellington, grandpa’s cabbage, smoked celeriac croquettes, port jus | £19</p>
+                <p>Fillet of coley, confit peppers, stem broccoli, sweet potato harissa puree, chorizo oil | GF | £18</p>
+                <p>Beef and ale pie, Roast jersey potatoes, heritage thyme carrots, onion puree | £15</p>
+                <p>Cep and smoked ricotta tortellini, sage crisps, garden beans, cashew nut butter | N V | £16</p>
               </div>
               <div>
                 <p>Desserts</p>
-                <p>Apple and allotment strawberry oat crumble, star anise crème anglaise | V GF | £6.50</p>
-                <p>Treacle and walnut tart, toasted barley ice cream, salted caramel sauce | N V | £6.50</p>
-                <p>White chocolate and raspberry crème brûlée, orange blossom shortbread | V GF | £6.50</p>
+                <p>Apple and allotment strawberry oat crumble, star anise crème anglaise | V GF | £7.50</p>
+                <p>Treacle and walnut tart, toasted barley ice cream, salted caramel sauce | N V | £7.50</p>
+                <p>White chocolate and raspberry crème brûlée, orange blossom shortbread | V GF | £7.50</p>
                 <p>Homemade ice cream selection | V GF | £3.25</p>
               </div>
             </div>

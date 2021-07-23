@@ -103,7 +103,7 @@ const Menu = () => {
                 <p>Lamb breast, pistachio and fig, rosemary cauliflower, potato harissa scone, romesco sauce | N GF | £18</p>
                 <p>Pork belly, Garden beans, smoked lardons, fondant potato, bramley puree | GF | £17.50</p>
                 <p>Braised brisket, cep and stilton wellington, grandpa’s cabbage, smoked celeriac croquettes, port jus | £19</p>
-                <p>Coley fillet, celeriac dauphinoise, stem broccoli, tomato ravioli, smoked almonds | GF | £18</p>
+                <p>Sea Bream fillet, celeriac dauphinoise, stem broccoli, tomato ravioli, smoked almonds | N GF | £18</p>
                 <p>Beef and ale pie, Roast jersey potatoes, heritage thyme carrots, onion puree | £15</p>
                 <p>Cep and smoked ricotta tortellini, sage crisps, garden beans, cashew nut butter | N V | £16</p>
               </div>

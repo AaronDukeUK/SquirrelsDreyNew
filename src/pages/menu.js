@@ -94,22 +94,22 @@ const Menu = () => {
               <div>
                 <p>Starters</p>
                 <p>Toasted handmade seasalt and rosemary focaccia, herb pitted olives, dipping oil | £6</p>
-                <p>Rolled oat mackerel, horseradish scone, roast candy beets, pea wasabi puree | £8</p>
+                <p>Rolled oat mackerel, horseradish scone, roast candy beets, pea wasabi velouté | £8</p>
                 <p>Rabbit loin, roasted jersey royals, pickled blackberries, quail scotch egg | £8</p>
                 <p>Ham hock bonbons, smoked cheddar tart, caramelised onion puree, cider and sage jelly | £8.50</p>
               </div>
               <div>
                 <p>Mains</p>
                 <p>Breast and squash ravioli, parmesan herb loin, roast courgettes, jersey royals, tomota consomme | GF | £18</p>
-                <p>Pork belly, Garden beans, smoked lardons, fondant potato, bramley puree | GF | £17.50</p>
+                <p>Pork belly, allotment beans, smoked lardons, fondant potato, bramley puree | GF | £17.50</p>
                 <p>Braised brisket, cep and stilton wellington, grandpa’s cabbage, smoked celeriac croquettes, port jus | £19</p>
-                <p>Sea bass fillet, allotment fine beans, thyme jersey royals, smoked almonds, tomato broth parma ham crisp | N GF | £18</p>
+                <p>Sea bass fillet, allotment beans, thyme jersey royals, smoked almonds, tomato broth, parma ham crisp | N GF | £18</p>
                 <p>Beef and ale pie, Roast jersey potatoes, heritage thyme carrots, onion puree | £15</p>
-                <p>Cep and smoked ricotta tortellini, sage crisps, garden beans, cashew nut butter | N V | £16</p>
+                <p>Cep and smoked ricotta tortellini, sage crisps, allotment beans, cashew nut butter | N V | £16</p>
               </div>
               <div>
                 <p>Desserts</p>
-                <p>Blueberry eton mess, citrus mascarpone, gin thyme syrup | V GF | £7.50</p>
+                <p>Blueberry citrus meringue, mascarpone, gin thyme syrup | V GF | £7.50</p>
                 <p>Treacle and walnut tart, toasted barley ice cream, salted caramel sauce | N V | £7.50</p>
                 <p>White chocolate and raspberry crème brûlée, orange blossom shortbread | V GF | £7.50</p>
                 <p>Homemade ice cream selection | V GF | £3.25</p>

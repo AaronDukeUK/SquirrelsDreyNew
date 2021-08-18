@@ -95,16 +95,16 @@ const Menu = () => {
                 <p>Starters</p>
                 <p>Toasted handmade seasalt and rosemary focaccia, herb pitted olives, dipping oil | V GF | £6</p>
                 <p>Rolled oat mackerel, horseradish scone, roast candy beets, pea wasabi velouté | GF | £8</p>
-                <p>Rabbit loin, roasted pink firs, pickled blackberries, quail scotch egg | £8</p>
+                <p>Rabbit loin, roasted maris peers, pickled blackberries, quail scotch egg | £8</p>
                 <p>Ham hock bonbons, smoked cheddar tart, caramelised onion puree, cider and sage jelly | £8.50</p>
               </div>
               <div>
                 <p>Mains</p>
-                <p>Lamb breast and squash ravioli, parmesan herbed lamb loin, roast courgettes, pink firs, tomato consomme | GF | £24</p>
-                <p>Pork belly, allotment squash, red chicory, anise carrot puree, maple jus | GF | £18.50</p>
+                <p>Lamb breast and squash ravioli, parmesan herbed lamb loin, roast courgettes, maris peers, tomato consomme | GF | £24</p>
+                <p>Pork belly, allotment squash, red chicory, star anise carrots, maple jus | GF | £18.50</p>
                 <p>Braised brisket, cep and stilton wellington, grandpa’s cabbage, smoked celeriac croquettes, port jus | £21</p>
-                <p>Red mullet fillet, courgette noodles, seared scallop, saffron oil, parma ham crisp | GF | £19</p>
-                <p>Beef and ale pie, Roast pink firs, allotment beans, onion puree | £16</p>
+                <p>Plaice fillet, nutmeg spinach tagliatelle, thyme tomatoes, capers, breaded mussels, romesco sauce | GF | £23</p>
+                <p>Beef and ale pie, Roast maris peers, allotment broad beans, onion puree | £16</p>
                 <p>Cep and smoked ricotta tortellini, sage crisps, allotment beans, cashew nut butter | N V | £16</p>
               </div>
               <div>

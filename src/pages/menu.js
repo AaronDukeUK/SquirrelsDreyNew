@@ -100,11 +100,11 @@ const Menu = () => {
               </div>
               <div>
                 <p>Mains</p>
-                <p>Lamb breast and squash ravioli, parmesan herbed lamb loin, roast courgettes, maris peers, tomato consomme | GF | £24</p>
+                <p>Lamb breast and squash ravioli, parmesan herbed lamb steak, roast courgette, maris peers, tomato consomme | GF | £24</p>
                 <p>Pork belly, allotment squash, red chicory, star anise carrots, maple jus | GF | £18.50</p>
                 <p>Braised brisket, cep and stilton wellington, grandpa’s cabbage, smoked celeriac croquettes, port jus | £21</p>
                 <p>Plaice fillet, nutmeg spinach tagliatelle, thyme tomatoes, capers, breaded mussels, romesco sauce | GF | £23</p>
-                <p>Beef and ale pie, Roast maris peers, allotment broad beans, onion puree | £16</p>
+                <p>Beef and ale pie, Roast maris peers, allotment beans, onion puree | £16</p>
                 <p>Cep and smoked ricotta tortellini, sage crisps, allotment beans, cashew nut butter | N V | £16</p>
               </div>
               <div>
@@ -143,7 +143,7 @@ const Menu = () => {
               Norfolk Beef Sirloin / Norfolk Leg of Lamb / Fruit and Nut Roast V
             </p>
             <p>
-              All served with seasonal vegetables, braised red cabbage, roast garlic and rosemary potatoes, sausage and apricot stuffing, homemade jus. GF
+              All served with seasonal vegetables, fried hispi cabbage, roast garlic and rosemary potatoes, sage Yorkshire pudding, sausage and apricot stuffing, homemade jus. GF
             </p>
           </div>
         </section>

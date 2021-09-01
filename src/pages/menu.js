@@ -95,16 +95,16 @@ const Menu = () => {
                 <p>Starters</p>
                 <p>Toasted handmade seasalt and rosemary focaccia, herb pitted olives, dipping oil | V GF | £6</p>
                 <p>Rolled oat mackerel, horseradish scone, roast candy beets, pea wasabi velouté | GF | £8</p>
-                <p>Pan seared pigeon, porcini and bitter chocolate risotto, jus | GF | £9</p>
-                <p>Ham hock bonbons, smoked cheddar tart, caramelised onion puree, cider and sage jelly | £8.50</p>
+                <p>Pan seared pigeon, porcini and bitter chocolate risotto, jus | GF | £8</p>
+                <p>Smoked chicken thyme parfait, toasted brioche, pear and port chutney | GF | £9</p>
               </div>
               <div>
                 <p>Mains</p>
-                <p>Lamb breast and squash ravioli, parmesan herbed lamb cutlet, roast courgette, maris peers, tomato consomme | GF | £24</p>
-                <p>Pork belly, charred leeks, celeriac fondant, apple and sage creme | GF | £19</p>
+                <p>Lamb breast and squash ravioli, parmesan herbed lamb cutlet, baby courgettes, pink firs, tomato consomme | GF | £24</p>
+                <p>Pork belly, roast baby leeks, celeriac fondant, cider and caramelised apple jus | GF | £19</p>
                 <p>Braised brisket, cep and stilton wellington, grandpa’s cabbage, smoked celeriac croquettes, port jus | £21</p>
-                <p>Hake fillet, roast leeks, pea and cockle croquettes, parma ham crisp | GF | £23</p>
-                <p>Beef and ale pie, Roast maris peers, allotment beans, onion puree | £17</p>
+                <p>Roast halibut, crab and lovage croquette, sous vide orange fennel, allotment tromboncino, smoked crème fraiche | GF | £28</p>
+                <p>Beef and ale pie, roast pink firs, allotment beans, onion puree | £17</p>
                 <p>Allotment squash and sweet potato Saag, beet bhaji, jeera pilau, fennel roti bread  | V GF | £17</p>
               </div>
               <div>

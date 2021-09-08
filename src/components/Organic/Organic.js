@@ -51,7 +51,7 @@ const Organic = () => {
             <Link className="link organicLink" to="/menu">
               Is there a dish which suits you?
             </Link>
-            <h2 className="coloredYellow">Organic.</h2>
+            <h2 className="coloredOrange">Organic.</h2>
           </div>
         </div>
       </VizSensor>

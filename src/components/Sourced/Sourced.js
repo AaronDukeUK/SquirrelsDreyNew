@@ -42,7 +42,7 @@ const Sourced = () => {
             <Link className="link sourcedLink" to="/menu">
               Looking for the menu?
             </Link>
-            <h2 className="coloredBlue">Locally Sourced.</h2>
+            <h2 className="coloredOrange">Locally Sourced.</h2>
           </div>
 
           <Fade in={active} timeout={3000}>

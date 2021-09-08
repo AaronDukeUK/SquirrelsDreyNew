@@ -43,7 +43,7 @@ const XmasHours = () => {
             <p>New Year's Eve - 1800 to 2130</p>
             <p>1st Jan to 18th Jan - Closed</p>
 
-            <h2 className="coloredPink">FESTIVE.</h2>
+            <h2 className="coloredOrange">FESTIVE.</h2>
           </div>
 
           <Fade in={active} timeout={3000}>

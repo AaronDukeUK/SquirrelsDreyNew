@@ -41,7 +41,7 @@ const Hours = () => {
             <p>Sat - 1800 to 2130</p>
             <p>Sun - 1200 to 1600</p>
 
-            <h2 className="coloredPink">Hours.</h2>
+            <h2 className="coloredOrange">Hours.</h2>
           </div>
 
           <Fade in={active} timeout={3000}>

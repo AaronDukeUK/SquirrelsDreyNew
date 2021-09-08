@@ -58,7 +58,7 @@ const XmasMenus = () => {
                 <a href={xmasmenu} download>Christmas Day Menu</a>
               </Link>
             </p>
-            <h2 className="coloredYellow">DECEMBER.</h2>
+            <h2 className="coloredOrange">DECEMBER.</h2>
           </div>
         </div>
       </VizSensor>

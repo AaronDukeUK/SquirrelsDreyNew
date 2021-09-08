@@ -51,7 +51,7 @@ const Discount = () => {
             <p>
               Terms & Conditions apply.
             </p>
-            <h2 className="coloredPurple">MIDWEEK.</h2>
+            <h2 className="coloredOrange">MIDWEEK.</h2>
           </div>
         </div>
       </VizSensor>

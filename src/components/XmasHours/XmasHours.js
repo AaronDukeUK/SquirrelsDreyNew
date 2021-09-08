@@ -1,15 +1,13 @@
 import React, { useState } from 'react'
-import { graphql, useStaticQuery, Link } from 'gatsby'
+import { graphql, useStaticQuery } from 'gatsby'
 import VizSensor from 'react-visibility-sensor'
 import { Fade } from '@material-ui/core'
 import Img from 'gatsby-image/withIEPolyfill'
-import './Pudding.sass'
+import './XmasHours.sass'
 
-import PUD from '../../files/PUD.pdf';
-
-const getPudding = graphql`
+const getXmasHours = graphql`
   {
-    file(name: { eq: "icecream" }) {
+    file(name: { eq: "xmasclock" }) {
       name
       childImageSharp {
         fluid {
@@ -20,8 +18,8 @@ const getPudding = graphql`
   }
 `
 
-const Pudding = () => {
-  const data = useStaticQuery(getPudding)
+const XmasHours = () => {
+  const data = useStaticQuery(getXmasHours)
   let [active, setActive] = useState(false)
   return (
     <section className="homeSectionContainer">
@@ -32,35 +30,37 @@ const Pudding = () => {
         partialVisibility
       >
         <div className="homeSection">
+
           <div className="homeText">
             <p className="lead">
-              Once a <span className="italic">month</span> we hold our very own pudding club.
+              Our Festive <span className="italic">opening</span> hours
             </p>
-            <p>A platter of handmade desserts along with a specially selected main course.</p>
-            <p>
-              Last <span className="italic">Friday</span> of every month.
-            </p>
-            <Link className="link puddingLink">
-              <a href={PUD} download>
-                Download Menu
-              </a>
-            </Link>
-            <h2 className="coloredOrange">Pudding.</h2>
+            <p>1st to 24th - Normal Hours</p>
+            <p>Christmas Day - 1200 to 1600 </p>
+            <p>Boxing Day - Closed</p>
+            <p>27th & 28th - Closed</p>
+            <p>29th & 30th - 1800 to 2130</p>
+            <p>New Year's Eve - 1800 to 2130</p>
+            <p>1st Jan to 18th Jan - Closed</p>
+
+            <h2 className="coloredPink">FESTIVE.</h2>
           </div>
 
           <Fade in={active} timeout={3000}>
             <div className="homeImage">
               <Img
+                className="Image"
                 alt={data.file.name}
                 fluid={data.file.childImageSharp.fluid}
                 objectFit="cover"
               />
             </div>
           </Fade>
+
         </div>
       </VizSensor>
     </section>
   )
 }
 
-export default Pudding
+export default XmasHours

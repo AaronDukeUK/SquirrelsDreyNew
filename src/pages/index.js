@@ -1,7 +1,7 @@
 import React from 'react'
 
 import { Layout } from '../layouts'
-import { SEO, Hero, Sourced, Organic, Discount, Pudding, Hours } from '../components'
+import { SEO, Hero, Sourced, Organic, Discount, Hours, XmasMenus, XmasHours } from '../components'
 
 const IndexPage = () => {
   return (
@@ -9,6 +9,8 @@ const IndexPage = () => {
       <SEO title="Home" />
       <main className="homeContainer">
         <Hero />
+        <XmasMenus />
+        <XmasHours />
         <Discount />
         <Sourced />
         <Organic />

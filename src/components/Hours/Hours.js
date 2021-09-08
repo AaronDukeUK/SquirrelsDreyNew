@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { graphql, useStaticQuery, Link } from 'gatsby'
+import { graphql, useStaticQuery } from 'gatsby'
 import VizSensor from 'react-visibility-sensor'
 import { Fade } from '@material-ui/core'
 import Img from 'gatsby-image/withIEPolyfill'
@@ -29,7 +29,21 @@ const Hours = () => {
         }}
         partialVisibility
       >
-        <div className="homeSection speed">
+        <div className="homeSection">
+
+          <div className="homeText">
+            <p className="lead">
+              When are <span className="italic">we</span> open?
+            </p>
+            <p>Weds - 1800 to 2130</p>
+            <p>Thur - 1800 to 2130</p>
+            <p>Fri - 1800 to 2130</p>
+            <p>Sat - 1800 to 2130</p>
+            <p>Sun - 1200 to 1600</p>
+
+            <h2 className="coloredPink">Hours.</h2>
+          </div>
+
           <Fade in={active} timeout={3000}>
             <div className="homeImage">
               <Img
@@ -41,18 +55,6 @@ const Hours = () => {
             </div>
           </Fade>
 
-          <div className="homeText">
-            <p className="lead">
-              When are <span className="italic">we</span> open?
-            </p>
-            <p>Weds - 1730 to 2130</p>
-            <p>Thur - 1730 to 2130</p>
-            <p>Fri - 1730 to 2130</p>
-            <p>Sat - 1730 to 2130</p>
-            <p>Sun - 1200 to 1600</p>
-
-            <h2 className="coloredPink">Hours.</h2>
-          </div>
         </div>
       </VizSensor>
     </section>

@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { MenuIcon, Menu, Social } from '../index'
+import { MenuIcon, Menu } from '../index'
 
 import { StyledBorder } from './styles'
 

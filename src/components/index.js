@@ -7,8 +7,9 @@ import { Hero } from './Hero'
 import { Sourced } from './Sourced'
 import { Discount } from './Discount'
 import { Organic } from './Organic'
-import { Pudding } from './Pudding'
 import { Hours } from './Hours'
+import { XmasHours } from './XmasHours'
+import { XmasMenus } from './XmasMenus'
 import { Footer } from './Footer'
 
 import {
@@ -35,8 +36,9 @@ export {
   Sourced,
   Organic,
   Discount,
-  Pudding,
   Hours,
+  XmasHours,
+  XmasMenus,
   Footer,
 }
 

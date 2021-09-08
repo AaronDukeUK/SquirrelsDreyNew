@@ -19,7 +19,7 @@ const getMenu = graphql`
         }
       }
     }
-    pc: file(name: { eq: "GFGREVIEW" }) {
+    pc: file(name: { eq: "trip" }) {
       name
       childImageSharp {
         fluid {
@@ -94,23 +94,23 @@ const Menu = () => {
               <div>
                 <p>Starters</p>
                 <p>Toasted handmade seasalt and rosemary focaccia, herb pitted olives, dipping oil | V GF | £6</p>
-                <p>Rolled oat mackerel, horseradish scone, roast candy beets, pea wasabi velouté | GF | £8</p>
+                <p>Rolled oat mackerel, horseradish scone, roast candy beets, pea velouté | GF | £8</p>
                 <p>Pan seared pigeon, porcini and bitter chocolate risotto, jus | GF | £8</p>
                 <p>Smoked chicken, thyme liver parfait, toasted brioche, pear and port chutney | GF | £9</p>
               </div>
               <div>
                 <p>Mains</p>
-                <p>Lamb and allotment squash herb crumble, parmesan cutlet, baby courgettes, marmite carrots, jus | GF | £23</p>
-                <p>Pork belly, roast baby leeks, celeriac fondant, cider and caramelised apple jus | GF | £19</p>
+                <p>Lamb and allotment squash herb crumble, parmesan cutlet, baby courgettes, marmite carrots, jus | £23</p>
+                <p>Pork fillet, maris peers, roast nips, haggis bonbons, parma ham crisp, roast onion broth | GF | £19</p>
                 <p>Braised brisket, cep and stilton wellington, grandpa’s cabbage, smoked celeriac croquettes, port jus | £21</p>
                 <p>Roast halibut, crab and lovage croquette, sous vide orange fennel, allotment tromboncino, smoked crème fraiche | GF | £26</p>
-                <p>Beef and ale pie, roast pink firs, allotment beans, onion puree | £17</p>
+                <p>Beef and ale pie, roast maris peers, chantenay carrots, onion puree | £17</p>
                 <p>Allotment squash and sweet potato Saag, beet bhaji, jeera pilau, fennel roti bread  | V GF | £17</p>
               </div>
               <div>
                 <p>Desserts</p>
                 <p>Allotment apple and cinnamon fritters, maple syrup, pecan praline ice cream | N V | £7.50</p>
-                <p>Treacle and walnut tart, toasted barley ice cream, salted caramel sauce | N V | £7.50</p>
+                <p>Treacle and walnut tart, vanilla ice cream, salted caramel sauce | N V | £7.50</p>
                 <p>White chocolate and raspberry crème brûlée, orange blossom shortbread | V GF | £7.50</p>
                 <p>Homemade ice cream selection | V GF | £3.25</p>
               </div>
@@ -122,13 +122,11 @@ const Menu = () => {
           <div className="aboutSection column">
 
             <div className="aboutLargeImage">
-              <a href="https://www.thegoodfoodguide.co.uk/feedback" target="_blank">
-                <Img
-                  alt={data.pc.name}
-                  fluid={data.pc.childImageSharp.fluid}
-                  objectFit="cover"
-                />
-              </a>
+              <Img
+                alt={data.pc.name}
+                fluid={data.pc.childImageSharp.fluid}
+                objectFit="cover"
+              />
             </div>
 
           </div>
@@ -142,7 +140,7 @@ const Menu = () => {
             <p>
               Norfolk Beef Sirloin / Norfolk Leg of Lamb / Fruit and Nut Roast V
             </p>
-            <p>
+            <p className="roastText">
               All served with seasonal vegetables, fried hispi cabbage, roast garlic and rosemary potatoes, sage Yorkshire pudding, sausage and apricot stuffing, homemade jus. GF
             </p>
           </div>

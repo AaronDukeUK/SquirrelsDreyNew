@@ -100,16 +100,16 @@ const Menu = () => {
               </div>
               <div>
                 <p>Mains</p>
-                <p>Lamb and allotment squash herb crumble, parmesan cutlet, baby courgettes, marmite carrots, jus | £23</p>
-                <p>Pork fillet, maris peers, roast nips, haggis bonbons, parma ham crisp, roast onion broth | GF | £19</p>
-                <p>Braised brisket, cep and stilton wellington, grandpa’s cabbage, smoked celeriac croquettes, port jus | £21</p>
-                <p>Roast halibut, stem broccoli, sous vide orange fennel, maris peers, panko king prawns, red pepper purée | GF | £26</p>
-                <p>Beef and ale pie, roast maris peers, thyme heritage carrots, onion puree | £17</p>
+                <p>Lamb and allotment squash herb crumble, braised lamb, baby courgettes, marmite carrots, jus | £24</p>
+                <p>Pork fillet, maris peers, roast nips, haggis bonbons, parma ham crisp, roast onion broth | GF | £20</p>
+                <p>Braised brisket, cep and stilton wellington, grandpa’s cabbage, smoked celeriac croquettes, port jus | £20</p>
+                <p>Wild brill, stem broccoli, roast tromboncino, maris peers, panko king prawns, red pepper purée | GF | £26</p>
+                <p>Beef and ale pie, beef dripping chips, stem broccoli, onion puree, jus | £17</p>
                 <p>Allotment roast autumn vegetable and harissa quiche, toasted almonds, stem broccoli, maris peers, red pepper purée | V | £17</p>
               </div>
               <div>
                 <p>Desserts</p>
-                <p>Smoked Norfolk dapple, sea salt and thyme crackers, pear and port chutney | GF V | £10.50</p>
+                <p>Smoked Norfolk dapple, sea salt and thyme crackers, pear and port chutney | GF V | £9</p>
                 <p>Treacle and walnut tart, clotted ice cream, salted caramel sauce | N V | £7.50</p>
                 <p>Allotment apple fruit pie, bay leaf ice cream, raspberry red wine coulis | V GF | £7.50</p>
                 <p>Homemade ice cream selection | V GF | £3.25</p>

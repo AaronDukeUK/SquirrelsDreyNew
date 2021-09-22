@@ -102,10 +102,10 @@ const Menu = () => {
                 <p>Mains</p>
                 <p>Lamb and allotment squash herb crumble, braised lamb, baby courgettes, marmite carrots, jus | £24</p>
                 <p>Pork fillet, maris peers, roast nips, haggis bonbons, parma ham crisp, roast onion broth | GF | £20</p>
-                <p>Braised brisket, cep and stilton wellington, grandpa’s cabbage, smoked celeriac croquettes, port jus | £20</p>
-                <p>Wild brill, stem broccoli, roast tromboncino, maris peers, panko king prawns, red pepper purée | GF | £26</p>
-                <p>Beef and ale pie, beef dripping chips, stem broccoli, onion puree, jus | £17</p>
-                <p>Allotment roast autumn vegetable and harissa quiche, toasted almonds, stem broccoli, maris peers, red pepper purée | V | £17</p>
+                <p>Pot roast stout and ox cheek, smoked parsnip mash, red cabbage, roast shallots, Norfolk swimmer | £22</p>
+                <p>Plaice fillet, celeriac dauphinoise, cauliflower pureé, cavolo nero, roast almonds, beurre noisette | GF N | £22</p>
+                <p>Beef and ale pie, roast maris peers, stem broccoli, onion pureé, beef jus | £17</p>
+                <p>Allotment roast autumn vegetable and harissa quiche, toasted almonds, stem broccoli, maris peers, red pepper purée | V N | £17</p>
               </div>
               <div>
                 <p>Desserts</p>

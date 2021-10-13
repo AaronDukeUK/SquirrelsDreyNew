@@ -93,26 +93,25 @@ const Menu = () => {
             <div className="aboutListing">
               <div>
                 <p>Starters</p>
-                <p>Toasted handmade seasalt and rosemary focaccia, herb pitted olives, dipping oil | V GF | £6</p>
-                <p>Rolled oat mackerel, horseradish scone, roast candy beets, pea velouté | GF | £8</p>
-                <p>Pan seared pigeon, porcini and bitter chocolate risotto, jus | GF | £8</p>
-                <p>Smoked chicken, thyme liver parfait, toasted brioche, pear and port chutney | GF | £9</p>
+                <p>Toasted handmade seasalt and rosemary focaccia, herb pitted olives, dipping oil | GF V | £6</p>
+                <p>Cromer crab and lemongrass ravioli, tromboncino noodles, tomato consomme | £9</p>
+                <p>Allotment apple and celeriac soup, smoked bacon crumb | GF V | £6.50</p>
+                <p>Smoked chicken, thyme liver parfait, toasted brioche, pear and port chutney | GF | £8.50</p>
               </div>
               <div>
                 <p>Mains</p>
-                <p>Lamb and allotment squash herb crumble, braised lamb, baby courgettes, marmite carrots, jus | £24</p>
+                <p>Dover sole fillet, smoked crevettes, celeriac dauphinoise, roast cauliflower, cavolo nero, lemon béarnaise | GF | £28</p>
                 <p>Pork fillet, maris peers, roast nips, haggis bonbons, parma ham crisp, roast onion broth | GF | £20</p>
-                <p>Pot roast stout and ox cheek, smoked parsnip mash, red cabbage, roast shallots, Norfolk swimmer | £22</p>
-                <p>Plaice fillet, celeriac dauphinoise, cauliflower pureé, cavolo nero, roast almonds, beurre noisette | GF N | £22</p>
-                <p>Beef and ale pie, roast maris peers, stem broccoli, onion pureé, beef jus | £17</p>
-                <p>Allotment roast autumn vegetable and harissa quiche, toasted almonds, stem broccoli, maris peers, red pepper purée | V N | £17</p>
+                <p>Sous vide spiced duck, sweet potato fondant, red chicory, pickled brambles, madeira jus | GF | £22</p>
+                <p>Pot roast stout and ox cheek, smoked parsnip mash, cavolo nero, roast shallots, Norfolk swimmer | £24</p>
+                <p>Roast sweet potato gnocchi, baked allotment root vegetables, tomato harissa sauce | V | £18</p>
               </div>
               <div>
                 <p>Desserts</p>
-                <p>Smoked Norfolk dapple, sea salt and thyme crackers, pear and port chutney | GF V | £9</p>
-                <p>Treacle and walnut tart, clotted ice cream, salted caramel sauce | N V | £7.50</p>
-                <p>Allotment apple fruit pie, bay leaf ice cream, raspberry red wine coulis | V GF | £7.50</p>
-                <p>Homemade ice cream selection | V GF | £3.25</p>
+                <p>Smoked Norfolk dapple, sea salt and thyme crackers, pear and port chutney | GF V | £9.50</p>
+                <p>Allotment blueberry and frangipane tart, blueberry ice cream | V | £7.50</p>
+                <p>Chocolate and smoked salt fondant, beetroot ice cream, chocolate soil | V | £7.50</p>
+                <p>Homemade ice cream selection | V GF | £3.50</p>
               </div>
             </div>
           </div>

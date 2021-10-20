@@ -93,18 +93,18 @@ const Menu = () => {
             <div className="aboutListing">
               <div>
                 <p>Starters</p>
-                <p>Toasted handmade seasalt and rosemary focaccia, herb pitted olives, dipping oil | GF V | £6</p>
-                <p>Cromer crab and lemongrass ravioli, tromboncino noodles, tomato consomme | £9</p>
-                <p>Allotment apple and celeriac soup, smoked bacon crumb | GF V | £6.50</p>
+                <p>Garlic thyme bread, blushed tomatoes, olives, Italian salsiccia | GF V | £8.50</p>
+                <p>Cromer crab and lemongrass ravioli, courgette noodles, tomato consomme | £9</p>
+                <p>Spiced parsnip and allotment apple, smoked crème fraiche | GF V | £6.50</p>
                 <p>Smoked chicken, thyme liver parfait, toasted brioche, pear and port chutney | GF | £8.50</p>
               </div>
               <div>
                 <p>Mains</p>
-                <p>Dover sole fillet, smoked crevettes, celeriac dauphinoise, roast cauliflower, cavolo nero, lemon béarnaise | GF | £28</p>
-                <p>Pork fillet, maris peers, roast nips, haggis bonbons, parma ham crisp, roast onion broth | GF | £20</p>
-                <p>Sous vide spiced duck, sweet potato fondant, red chicory, pickled brambles, madeira jus | GF | £22</p>
+                <p>Roast monkfish, lemon thyme razor clam, cavolo nero, pommes anna, beurre blanc | GF | £28</p>
+                <p>Pork fillet, maris peers, roast turnip, haggis bonbons, parma ham crisp, roast onion broth | GF | £20</p>
+                <p>Honey five spiced duck breast, candied walnuts, sweet potato, red chicory, raspberry vinaigrette | GF | £22</p>
                 <p>Pot roast stout and ox cheek, smoked parsnip mash, cavolo nero, roast shallots, Norfolk swimmer | £24</p>
-                <p>Roast sweet potato gnocchi, baked allotment root vegetables, tomato harissa sauce | V | £18</p>
+                <p>Roasted pumpkin and mascarpone, apple sage butter, candied pecans | V | £18</p>
               </div>
               <div>
                 <p>Desserts</p>

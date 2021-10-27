@@ -93,24 +93,24 @@ const Menu = () => {
             <div className="aboutListing">
               <div>
                 <p>Starters</p>
-                <p>Garlic thyme bread, blushed tomatoes, olives, Italian salsiccia | GF V | £8.50</p>
+                <p>Garlic thyme bread, blushed tomatoes, olives, Italian salsiccia | GF V | £7</p>
                 <p>Cromer crab and lemongrass ravioli, courgette noodles, tomato consomme | £9</p>
-                <p>Spiced parsnip and allotment apple, smoked crème fraiche | GF V | £6.50</p>
-                <p>Smoked chicken, thyme liver parfait, toasted brioche, pear and port chutney | GF | £8.50</p>
+                <p>Spiced parsnip and allotment apple, smoked crème fraiche | GF V | £6</p>
+                <p>Honey roast hock, fried polenta, cavolo nero, calvados apple puree | GF | £9</p>
               </div>
               <div>
                 <p>Mains</p>
-                <p>Roast monkfish, lemon thyme razor clam, cavolo nero, pommes anna, beurre blanc | GF | £28</p>
-                <p>Pork fillet, maris peers, roast turnip, haggis bonbons, parma ham crisp, roast onion broth | GF | £20</p>
-                <p>Honey five spiced duck breast, candied walnuts, sweet potato, red chicory, raspberry vinaigrette | GF | £22</p>
-                <p>Pot roast stout and ox cheek, smoked parsnip mash, cavolo nero, roast shallots, Norfolk swimmer | £24</p>
-                <p>Roasted pumpkin and mascarpone, apple sage butter, candied pecans | V | £18</p>
+                <p>Baked monkfish, lemon thyme razor clam, purple stem broccoli, pommes anna, cherry tomato veloute | GF | £24</p>
+                <p>Honey five spiced duck breast, noodles, sauteed pak choi, miso coriander broth | £22</p>
+                <p>Pork belly, Ginger pears, purple stem broccoli, candied pecans, fondant potato | GF N | £20</p>
+                <p>Pot roast shin of beef, bubble and squeak, parsnip crisps, bordelaise sauce | £22</p>
+                <p>Roasted pumpkin and mascarpone, apple sage butter, candied pecans | V N | £18</p>
               </div>
               <div>
                 <p>Desserts</p>
-                <p>Smoked Norfolk dapple, sea salt and thyme crackers, pear and port chutney | GF V | £9.50</p>
-                <p>Allotment blueberry and frangipane tart, blueberry ice cream | V | £7.50</p>
-                <p>Chocolate and smoked salt fondant, beetroot ice cream, chocolate soil | V | £7.50</p>
+                <p>Smoked Norfolk dapple, sea salt and thyme crackers, blackberry and port chutney | GF V | £9</p>
+                <p>Allotment blueberry and frangipane tart, blueberry ice cream | V | £7</p>
+                <p>Chocolate and smoked salt fondant, beetroot ice cream, chocolate soil | V | £7</p>
                 <p>Homemade ice cream selection | V GF | £3.50</p>
               </div>
             </div>

@@ -7,6 +7,7 @@ import './XmasMenus.sass'
 
 import decmenu from '../../files/decmenu.pdf';
 import xmasmenu from '../../files/xmasmenu.pdf';
+import nyemenu from '../../files/nyemenu.pdf';
 
 const getXmasMenus = graphql`
   {
@@ -46,7 +47,7 @@ const XmasMenus = () => {
 
           <div className="homeText">
             <p className="lead">
-              Our December & Christmas Day <span className="italic">menus</span> are now available.
+              Our Festive <span className="italic">menus</span> are now available.
             </p>
             <p>
               <Link className="link menuLink">
@@ -58,7 +59,12 @@ const XmasMenus = () => {
                 <a href={xmasmenu} download>Christmas Day Menu</a>
               </Link>
             </p>
-            <h2 className="coloredOrange">DECEMBER.</h2>
+            <p>
+              <Link className="link menuLink">
+                <a href={nyemenu} download>New Year's Eve Menu</a>
+              </Link>
+            </p>
+            <h2 className="coloredOrange">CELEBRATE.</h2>
           </div>
         </div>
       </VizSensor>

@@ -93,24 +93,24 @@ const Menu = () => {
             <div className="aboutListing">
               <div>
                 <p>Starters</p>
-                <p>Garlic thyme bread, blushed tomatoes, olives, Italian milano salami | GF V | £7</p>
-                <p>Smoked salmon, tender stem broccoli, walnut aioli, roast thyme potato, red pepper puree | N GF | £8</p>
-                <p>Spiced parsnip and allotment apple, smoked crème fraiche | GF V | £6</p>
-                <p>Honey roast hock, fried polenta, cavolo nero, calvados apple puree | GF | £8</p>
+                <p>Smoked breast, liver parfait, cranberry clementine chutney, toasted brioche | GF | £9</p>
+                <p>Walnut rye bread, blossom honey butter, mustard roast brisket, pickled cauliflower | GF | £8</p>
+                <p>Deep fried calamari and razor clams, smoked garlic butter | £9</p>
               </div>
               <div>
                 <p>Mains</p>
-                <p>Roast halibut, pommes anna, baby leeks, pancetta, mussel cider veloute | GF | £22</p>
-                <p>Smoked pheasant, leek and gammon pie, cavolo nero, walnut pear croquette, thyme creme | N | £20</p>
-                <p>Pot roast shin of beef, bubble and squeak, parsnip crisps, bordelaise sauce | £20</p>
-                <p>Roasted pumpkin and mascarpone, apple sage butter, candied pecans | V N | £16</p>
+                <p>Braised lamb rump, fondant potato, cavolo nero, pickled walnuts, smoked salsify purée | GF N | £23</p>
+                <p>Fillet of beef, oxtail pudding, roast nips and tatties, morel madeira sauce | £24</p>
+                <p>Sustainable beer battered market fish, beef dripping chips, mint pea puree, chervil and caper aioli | GF | £18</p>
+                <p>Roast sea bass, fennel and seaweed croquette, purple broccoli, tomato and lemongrass miso broth | GF | £20</p>
+                <p>Braised leek and smoked cheddar crumble, roast artichoke and chestnuts, nero crisps | GF V N | £17</p>
               </div>
               <div>
                 <p>Desserts</p>
-                <p>Smoked Norfolk dapple, sea salt and thyme crackers, blackberry and port chutney | GF V | £9</p>
-                <p>Mulled red wine pear and pistachio tarte tartin, fennel ice cream | V N | £7</p>
-                <p>Blackberry and almond clafoutis, crème patisserie, cardamon tuile | V | £7</p>
-                <p>Homemade ice cream selection | V GF | £3.50</p>
+                <p>Cranberry and white chocolate brioche pudding, cointreau crème anglaise| V | £7</p>
+                <p>Chestnut mousse, sherry jelly, muscovado meringue, caramel sauce | GF N V | £7</p>
+                <p>Smoked Norfolk cheddar, blackberry and port chutney, sea salt crackers | GF V | £9</p>
+                <p>Homemade ice cream selection | V GF N | £3.50</p>
               </div>
             </div>
           </div>

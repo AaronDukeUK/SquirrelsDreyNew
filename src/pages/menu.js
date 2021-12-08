@@ -93,7 +93,7 @@ const Menu = () => {
             <div className="aboutListing">
               <div>
                 <p>Starters</p>
-                <p>Smoked breast, liver parfait, cranberry clementine chutney, toasted brioche | GF | £9</p>
+                <p>Smoked duck breast, liver parfait, cranberry clementine chutney, toasted brioche | GF | £9</p>
                 <p>Walnut rye bread, blossom honey butter, mustard roast brisket, pickled cauliflower | GF | £8</p>
                 <p>Deep fried calamari and razor clams, smoked garlic butter | £9</p>
               </div>

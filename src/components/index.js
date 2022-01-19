@@ -9,7 +9,6 @@ import { Discount } from './Discount'
 import { Organic } from './Organic'
 import { Hours } from './Hours'
 import { XmasHours } from './XmasHours'
-import { XmasMenus } from './XmasMenus'
 import { Footer } from './Footer'
 
 import {
@@ -38,7 +37,6 @@ export {
   Discount,
   Hours,
   XmasHours,
-  XmasMenus,
   Footer,
 }
 

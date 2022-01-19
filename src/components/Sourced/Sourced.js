@@ -22,7 +22,7 @@ const Sourced = () => {
   const data = useStaticQuery(getSourced)
   let [active, setActive] = useState(false)
   return (
-    <section className="homeSectionContainer">
+    <section className="homeSectionContainer greyBG">
       <VizSensor
         onChange={isVisible => {
           setActive(isVisible)

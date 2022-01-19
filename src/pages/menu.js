@@ -1,11 +1,14 @@
 import React, { useState } from 'react'
-import { graphql, useStaticQuery } from 'gatsby'
+import { graphql, useStaticQuery, Link } from 'gatsby'
 import VizSensor from 'react-visibility-sensor'
 import { Fade } from '@material-ui/core'
 import Img from 'gatsby-image/withIEPolyfill'
 import { SEO } from '../components'
 
 import { Layout } from '../layouts'
+
+import janmenu from '../files/janmenu.pdf';
+import janveganmenu from '../files/janveganmenu.pdf';
 
 import './menu.sass'
 
@@ -82,37 +85,18 @@ const Menu = () => {
         <section className="aboutSectionContainer">
           <div className="aboutSection column">
             <div className="aboutText alignStart">
-              <p className="lead">
-                Sunday <span className="italic">Lunches</span> served 1200 to 1500
+              <p>
+                <Link className="link">
+                  <a href={janmenu} download>January Menu</a>
+                </Link>
               </p>
               <p>
-                Gluten-free, Dairy-free and Vegan also available.
+                <Link className="link">
+                  <a href={janveganmenu} download>January Vegan Menu</a>
+                </Link>
               </p>
             </div>
 
-            <div className="aboutListing">
-              <div>
-                <p>Starters</p>
-                <p>Smoked duck breast, liver parfait, cranberry clementine chutney, toasted brioche | GF | £9</p>
-                <p>Walnut rye bread, blossom honey butter, mustard roast brisket, pickled cauliflower | GF | £8</p>
-                <p>Deep fried calamari and razor clams, smoked garlic butter | £9</p>
-              </div>
-              <div>
-                <p>Mains</p>
-                <p>Braised lamb rump, fondant potato, cavolo nero, pickled walnuts, smoked salsify purée | GF N | £23</p>
-                <p>Fillet of beef, oxtail pudding, roast nips and tatties, morel madeira sauce | £24</p>
-                <p>Sustainable beer battered market fish, beef dripping chips, mint pea puree, chervil and caper aioli | GF | £18</p>
-                <p>Roast sea bass, fennel and seaweed croquette, purple broccoli, tomato and lemongrass miso broth | GF | £20</p>
-                <p>Braised leek and smoked cheddar crumble, roast artichoke and chestnuts, nero crisps | GF V N | £17</p>
-              </div>
-              <div>
-                <p>Desserts</p>
-                <p>Cranberry and white chocolate brioche pudding, cointreau crème anglaise| V | £7</p>
-                <p>Chestnut mousse, sherry jelly, muscovado meringue, caramel sauce | GF N V | £7</p>
-                <p>Smoked Norfolk cheddar, blackberry and port chutney, sea salt crackers | GF V | £9</p>
-                <p>Homemade ice cream selection | V GF N | £3.50</p>
-              </div>
-            </div>
           </div>
         </section>
 
